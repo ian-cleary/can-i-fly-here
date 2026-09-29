@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Can I Fly Here?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#eef1f3;--surface:#fff;--surface-2:#e6eaed;--ink:#11181c;--muted:#4e5b63;
+  --line:#c9d0d4;--accent:#f2bf24;--accent-ink:#1a1707;--red:#b9272f;--red-soft:#f9dfe1;
+  --green:#116d4c;--green-soft:#d9f0e7;--amber:#a66700;--amber-soft:#fff0c7;
+  --shadow:0 12px 28px rgba(20,32,40,.10);--radius:18px;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0d1418;--surface:#152027;--surface-2:#1d2b33;--ink:#edf2f4;--muted:#afbcc3;--line:#34434c;
+  --accent:#f5c847;--accent-ink:#1a1707;--red:#ff6e75;--red-soft:#3b1f24;--green:#54d49c;--green-soft:#14362b;
+  --amber:#f2b84b;--amber-soft:#3e321a;--shadow:0 16px 34px rgba(0,0,0,.32)}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Sans 3",sans-serif;font-size:17px;line-height:1.5}
+button{font:inherit;touch-action:manipulation}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.topline{height:7px;background:linear-gradient(90deg,var(--accent) 0 55%,var(--green) 55% 80%,var(--red) 80%)}
+.wrap{max-width:600px;margin:0 auto;padding:26px 20px 70px}
+h1{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:clamp(52px,13vw,84px);line-height:.92;margin:14px 0 6px;letter-spacing:.01em}
+.meta{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.lede{font-size:19px;color:var(--muted);margin:0 0 26px;max-width:34ch}
+.big-btn{display:block;width:100%;border:0;border-radius:var(--radius);background:var(--accent);color:var(--accent-ink);
+  font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:clamp(34px,9vw,46px);letter-spacing:.02em;
+  padding:30px 18px;margin:6px 0 14px;box-shadow:var(--shadow);cursor:pointer}
+.big-btn:active{transform:scale(.985)}
+.big-btn[disabled]{opacity:.55;cursor:wait}
+.ghost-btn{display:block;width:100%;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+  color:var(--ink);font-weight:600;padding:15px;margin:10px 0;cursor:pointer}
+.card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin:16px 0}
+.card h2{font-family:"Barlow Condensed",sans-serif;font-size:30px;margin:0 0 4px}
+.rule-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.rule{background:var(--surface-2);border-radius:12px;padding:10px 12px}
+.rule .k{font-family:"IBM Plex Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.rule .v{font-weight:700;font-size:16px;margin-top:2px}
+.notes{margin:10px 0 0;padding-left:20px;color:var(--muted);font-size:15px}
+.notes li{margin-bottom:6px}
+.official{display:inline-block;margin-top:12px;font-weight:700;color:var(--ink);text-decoration:none;border-bottom:3px solid var(--accent)}
+.toggle{display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:16px;margin:10px 0;cursor:pointer;user-select:none;-webkit-user-select:none}
+.toggle input{appearance:none;-webkit-appearance:none;flex:0 0 30px;width:30px;height:30px;border:2px solid var(--line);border-radius:9px;margin:2px 0 0;background:var(--surface);cursor:pointer}
+.toggle input:checked{background:var(--green);border-color:var(--green);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");background-size:70%;background-position:center;background-repeat:no-repeat}
+.toggle .t{font-weight:700}
+.toggle .d{font-size:14px;color:var(--muted);margin-top:2px}
+.section-label{font-family:"IBM Plex Mono",monospace;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:22px 0 4px}
+.verdict{margin:6px 0 16px;padding:26px 22px;border-radius:var(--radius);background:#25333b;border-left:12px solid #78909c;color:#f2f5f6}
+.verdict.no{background:#4a171c;border-left-color:#ff626b}
+.verdict.caution{background:#4b3508;border-left-color:#ffc44f}
+.verdict.go{background:#0e462f;border-left-color:#51da9f}
+.verdict-word{font-family:"Barlow Condensed",sans-serif;font-size:clamp(64px,20vw,110px);font-weight:800;line-height:.9;margin:0}
+.verdict-sub{font-family:"IBM Plex Mono",monospace;font-size:13px;margin:10px 0 0;color:#d7dfe3}
+.reasons{margin:0;padding-left:22px}
+.reasons li{margin-bottom:10px}
+.reasons li.good{color:var(--green);font-weight:600}
+.reasons li.bad{color:var(--red);font-weight:600}
+.reasons li.warn{color:var(--amber);font-weight:600}
+.fineprint{font-size:14px;color:var(--muted);margin-top:22px}
+select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);margin:8px 0}
+.hidden{display:none!important}
+.spin{display:inline-block;width:22px;height:22px;border:3px solid rgba(0,0,0,.25);border-top-color:currentColor;border-radius:50%;animation:sp 0.8s linear infinite;vertical-align:-4px;margin-right:10px}
+@keyframes sp{to{transform:rotate(360deg)}}
+.loc-line{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted);margin:6px 0 0}
+.warn-banner{background:var(--amber-soft);border:1px solid var(--amber);border-radius:12px;padding:12px 14px;font-size:15px;margin:12px 0;color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<div class="wrap">
+
+  <!-- START -->
+  <section id="screen-start">
+    <p class="meta">Drone flight checker</p>
+    <h1>CAN I FLY HERE?</h1>
+    <p class="lede">One button. Your location, the nearest airfields, and the local rules — boiled down to a single verdict.</p>
+    <button class="big-btn" id="btn-go">Can I fly here?</button>
+    <button class="ghost-btn" id="btn-manual">No GPS — pick a country manually</button>
+    <p class="fineprint">Guidance only — never legal clearance. This tool cannot see live geozone geometry or NOTAMs; it checks airfield proximity in OpenStreetMap data plus published country rules, and always hands off to the official source.</p>
+  </section>
+
+  <!-- CHECK -->
+  <section id="screen-check" class="hidden">
+    <p class="meta">Step 1 of 2 — confirm</p>
+    <h1 id="check-title">CHECKING…</h1>
+    <p class="loc-line" id="loc-line"></p>
+    <div id="degraded-banner" class="warn-banner hidden">Could not verify airspace automatically — running on country rules only. Verdict is capped at CAUTION.</div>
+    <div class="card">
+      <h2 id="rules-title">Local rules</h2>
+      <div class="rule-grid" id="rule-grid"></div>
+      <ul class="notes" id="rule-notes"></ul>
+      <a class="official" id="rule-link" href="#" target="_blank" rel="noopener">Official source →</a>
+    </div>
+    <p class="section-label">Prerequisites — remembered on this device</p>
+    <label class="toggle"><input type="checkbox" id="tg-reg"><span><span class="t">Operator registration valid for this country</span><span class="d" id="tg-reg-d">e.g. EASA operator ID for EU states, CAA Operator ID for the UK, FAA registration for the US</span></span></label>
+    <label class="toggle"><input type="checkbox" id="tg-ins"><span><span class="t">Liability insurance covering this country</span><span class="d">e.g. FPV UK membership for EU flying, or a local drone Haftpflicht policy</span></span></label>
+    <p class="section-label">Right now, at this spot</p>
+    <label class="toggle"><input type="checkbox" id="tg-vlos" checked><span><span class="t">Visual line of sight</span><span class="d">You can see the drone with unaided eyes at all times</span></span></label>
+    <label class="toggle"><input type="checkbox" id="tg-alt" checked><span><span class="t">At or below 120 m</span><span class="d">Above ground level, well under any manned traffic</span></span></label>
+    <label class="toggle"><input type="checkbox" id="tg-people" checked><span><span class="t">Clear of uninvolved people</span><span class="d">No crowds, no flying over people who aren't part of the flight</span></span></label>
+    <label class="toggle"><input type="checkbox" id="tg-day" checked><span><span class="t">Daylight</span><span class="d">Recreational night flying needs specific authorisation in most countries</span></span></label>
+    <button class="big-btn" id="btn-verdict">Get verdict</button>
+    <button class="ghost-btn" id="btn-back">Back</button>
+  </section>
+
+  <!-- MANUAL COUNTRY -->
+  <section id="screen-manual" class="hidden">
+    <p class="meta">Manual mode</p>
+    <h1>PICK A COUNTRY</h1>
+    <p class="lede">Without GPS there is no airfield check — the verdict is capped at CAUTION.</p>
+    <select id="country-select"></select>
+    <button class="big-btn" id="btn-manual-go" style="font-size:clamp(26px,7vw,36px)">Continue</button>
+    <button class="ghost-btn" id="btn-manual-back">Back</button>
+  </section>
+
+  <!-- VERDICT -->
+  <section id="screen-verdict" class="hidden">
+    <p class="meta">Verdict</p>
+    <div class="verdict" id="verdict-box">
+      <p class="verdict-word" id="verdict-word">—</p>
+      <p class="verdict-sub" id="verdict-sub"></p>
+    </div>
+    <div class="card">
+      <h2>Why</h2>
+      <ul class="reasons" id="reasons"></ul>
+    </div>
+    <div class="card">
+      <h2>Official source</h2>
+      <p style="margin:6px 0 0"><a class="official" id="verdict-link" href="#" target="_blank" rel="noopener">Check the official map →</a></p>
+      <p class="fineprint">Always verify against the official geozone map and current NOTAMs before launching. Rules change; this page may not reflect today's version.</p>
+    </div>
+    <button class="big-btn" id="btn-again" style="font-size:clamp(26px,7vw,36px)">Check again</button>
+  </section>
+
+</div>
+<script>
+"use strict";
+/* Country rules: headline guidance only — the linked official source is authoritative. */
+const RULES = {
+DE:{name:"Germany",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration",ins:"Required — German drone liability insurance (Haftpflicht)",notes:["Keep clear of crowds, residential areas, airports, nature reserves and federal infrastructure.","Many cities and states add local no-fly zones — check dipul before launching."],link:"https://www.dipul.de",linkLabel:"DFS dipul airspace map"},
+FR:{name:"France",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (AlphaTango)",ins:"Required — liability insurance",notes:["Built-up areas are largely no-fly; check the Géoportail drone restriction layer.","Night flight and flights over people need specific authorisation."],link:"https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",linkLabel:"Géoportail drone restrictions"},
+NL:{name:"Netherlands",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (RDW)",ins:"Required — liability insurance",notes:["Large parts of the Randstad and nature areas are restricted.","Check the official GoDrone map for the current picture."],link:"https://www.rijksoverheid.nl/onderwerpen/drone",linkLabel:"Dutch government drone rules"},
+BE:{name:"Belgium",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (BCAA)",ins:"Required — liability insurance",notes:["Check the Droneguide map for Belgian geozones before every flight."],link:"https://mobilit.belgium.be/en/aviation/drones",linkLabel:"Belgian CAA drone pages"},
+AT:{name:"Austria",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (Austro Control)",ins:"Required — liability insurance",notes:["Vienna and many tourist areas have additional restrictions."],link:"https://www.austrocontrol.at/en/aviation_agency/drones",linkLabel:"Austro Control drones"},
+CH:{name:"Switzerland",alt:"120 m",vlos:"Required",reg:"Required — EASA-aligned registration (FOCA)",ins:"Required — liability insurance",notes:["Switzerland applies the EU drone regulation; check FOCA for cantonal additions."],link:"https://www.bazl.admin.ch/bazl/en/home/good-to-know/drones-and-aircraft-models.html",linkLabel:"FOCA drone guidance"},
+ES:{name:"Spain",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (AESA)",ins:"Required — liability insurance",notes:["National parks, cities and controlled airspace have extra limits — check ENAIRE Drones."],link:"https://www.seguridadaerea.gob.es/en/ambitos/drones",linkLabel:"AESA drones"},
+IT:{name:"Italy",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (ENAC)",ins:"Required — liability insurance",notes:["Historic centres and many coastal areas are restricted; check D-Flight."],link:"https://www.enac.gov.it/en/passengers-and-citizens/drones",linkLabel:"ENAC drones"},
+IE:{name:"Ireland",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (IAA MySRS)",ins:"Required — check IAA guidance",notes:["Check the IAA Drone Zone Map before flying."],link:"https://www.iaa.ie/general-aviation/drones",linkLabel:"IAA drones"},
+UK:{name:"United Kingdom",alt:"120 m (400 ft)",vlos:"Required",reg:"Required — CAA Operator ID + Flyer ID",ins:"Recommended recreational — required for commercial / 20 kg+",notes:["Keep 50 m from people and property; 150 m from crowds and built-up areas.","EU registrations are not valid in the UK and vice versa."],link:"https://www.caa.co.uk/drones",linkLabel:"CAA Drone Code"},
+US:{name:"United States",alt:"120 m (400 ft)",vlos:"Required",reg:"Required for 250 g+ — FAA registration; TRUST test for recreational pilots",ins:"Not federally required — recommended",notes:["Controlled airspace needs LAANC authorisation — check B4UFLY.","State and local park rules often add bans."],link:"https://www.faa.gov/uas",linkLabel:"FAA UAS"},
+CA:{name:"Canada",alt:"120 m (400 ft)",vlos:"Required",reg:"RPAS pilot certificate required (basic or advanced)",ins:"Required for commercial — recommended recreational",notes:["Keep 30 m from bystanders (basic) and out of controlled airspace without authorisation."],link:"https://tc.canada.ca/en/aviation/drone-safety",linkLabel:"Transport Canada drone safety"},
+AU:{name:"Australia",alt:"120 m",vlos:"Required",reg:"Registration required (CASA)",ins:"Recommended recreational — required for commercial",notes:["Keep 30 m from people; no flying over populous areas without approval."],link:"https://www.casa.gov.au/knowyourdrone",linkLabel:"CASA Know Your Drone"},
+NZ:{name:"New Zealand",alt:"120 m (400 ft)",vlos:"Required",reg:"No registration for recreational — Part 101 rules apply",ins:"Recommended",notes:["Keep 4 km from aerodromes; controlled airspace needs ATC approval."],link:"https://www.aviation.govt.nz/drones/",linkLabel:"NZ CAA drones"},
+NO:{name:"Norway",alt:"120 m",vlos:"Required",reg:"Required — EASA-aligned (flydrone.no)",ins:"Required — check national rules",notes:["Keep 5 km from airports unless agreed otherwise."],link:"https://luftfartstilsynet.no/en/drones/",linkLabel:"Norwegian CAA drones"},
+SE:{name:"Sweden",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration",ins:"Required — check national rules",notes:["Camera drones need care around privacy law; check Transportstyrelsen."],link:"https://www.transportstyrelsen.se/en/aviation/drones/",linkLabel:"Swedish Transport Agency drones"},
+DK:{name:"Denmark",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration",ins:"Required — check national rules",notes:["Check the official Naviair drone map for Danish restrictions."],link:"https://www.trafikstyrelsen.dk/en/aviation/drones",linkLabel:"Danish CAA drones"},
+PL:{name:"Poland",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (ULC)",ins:"Required — check national rules",notes:["Check PansaUTM for Polish airspace before flying."],link:"https://www.ulc.gov.pl/en/drones",linkLabel:"Polish CAA drones"},
+CZ:{name:"Czechia",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration",ins:"Required — check national rules",notes:["Prague and national parks carry extra restrictions."],link:"https://www.caa.cz/en/unmanned-aircraft/",linkLabel:"Czech CAA unmanned aircraft"},
+PT:{name:"Portugal",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (ANAC)",ins:"Required — check national rules",notes:["Coastal cliffs and cities often restricted; check ANAC guidance."],link:"https://www.anac.pt/vPT/Generico/drones",linkLabel:"ANAC drones"},
+GR:{name:"Greece",alt:"120 m",vlos:"Required",reg:"Required — EASA operator registration (HCAA)",ins:"Required — check national rules",notes:["Archaeological sites, airports and border areas are restricted."],link:"https://www.ypa.gr/en/unmanned-aircraft-systems-drones/",linkLabel:"Hellenic CAA drones"}
+};
+const FALLBACK={name:"Unknown",alt:"120 m",vlos:"Required",reg:"Check local rules",ins:"Check local rules",notes:["This country is not in the built-in table — look up the national aviation authority before flying.","Default to: 120 m max, visual line of sight, daylight, well clear of airports and people."],link:"https://www.icao.int/safety/UA/",linkLabel:"ICAO UAS guidance"};
+
+const $=id=>document.getElementById(id);
+const S={lat:null,lon:null,cc:null,country:null,degraded:false,nearest:null};
+
+function show(id){["screen-start","screen-check","screen-manual","screen-verdict"].forEach(s=>$(s).classList.toggle("hidden",s!==id));window.scrollTo(0,0);}
+
+function ruleFor(cc){return RULES[cc]||Object.assign({},FALLBACK,{name:S.country||"Unknown"});}
+
+function renderRules(){
+  const r=ruleFor(S.cc);
+  $("rules-title").textContent="Local rules — "+r.name;
+  $("rule-grid").innerHTML=
+    kv("Max altitude",r.alt)+kv("Line of sight",r.vlos)+kv("Registration",r.reg)+kv("Insurance",r.ins);
+  $("rule-notes").innerHTML=r.notes.map(n=>"<li>"+esc(n)+"</li>").join("");
+  const a=$("rule-link");a.href=r.link;a.textContent=r.linkLabel+" →";
+  const va=$("verdict-link");va.href=r.link;va.textContent=r.linkLabel+" →";
+}
+function kv(k,v){return '<div class="rule"><div class="k">'+esc(k)+'</div><div class="v">'+esc(v)+"</div></div>";}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function loadToggles(){
+  $("tg-reg").checked=localStorage.getItem("cifh_reg")==="1";
+  $("tg-ins").checked=localStorage.getItem("cifh_ins")==="1";
+}
+["tg-reg","tg-ins"].forEach(id=>{document.addEventListener("change",e=>{if(e.target&&e.target.id===id)localStorage.setItem(id==="tg-reg"?"cifh_reg":"cifh_ins",e.target.checked?"1":"0");});});
+
+function toCheckScreen(){
+  loadToggles();
+  $("check-title").textContent="CAN YOU FLY IN "+(S.country||"THIS COUNTRY").toUpperCase()+"?";
+  $("loc-line").textContent=(S.lat!=null)?("GPS "+S.lat.toFixed(5)+", "+S.lon.toFixed(5)+(S.cc?" · "+S.cc:"")):"Manual country selection";
+  $("degraded-banner").classList.toggle("hidden",!S.degraded);
+  renderRules();show("screen-check");
+}
+
+/* ---- location ---- */
+function startGeo(){
+  const b=$("btn-go");b.disabled=true;b.innerHTML='<span class="spin"></span>Getting location…';
+  if(!navigator.geolocation){geoFail("Geolocation not available on this device.");resetBtn();return;}
+  navigator.geolocation.getCurrentPosition(
+    p=>{S.lat=p.coords.latitude;S.lon=p.coords.longitude;reverseGeocode().finally(resetBtn);},
+    e=>{geoFail("Location unavailable ("+(e.message||"permission denied")+").");resetBtn();},
+    {enableHighAccuracy:true,timeout:15000,maximumAge:60000}
+  );
+}
+function resetBtn(){const b=$("btn-go");b.disabled=false;b.textContent="Can I fly here?";}
+function geoFail(msg){S.degraded=true;S.lat=null;S.lon=null;openManual(msg);}
+
+async function reverseGeocode(){
+  try{
+    const u="https://api.bigdatacloud.net/data/reverse-geocode-client?latitude="+S.lat+"&longitude="+S.lon+"&localityLanguage=en";
+    const r=await fetch(u);if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    S.cc=(j.countryCode||"").toUpperCase()||null;
+    S.country=j.countryName||null;
+    S.degraded=false;
+  }catch(e){S.degraded=true;}
+  toCheckScreen();
+}
+
+/* ---- airspace ---- */
+function haversine(a,b,c,d){
+  const R=6371,t=Math.PI/180;
+  const h=Math.sin((c-a)*t/2)**2+Math.cos(a*t)*Math.cos(c*t)*Math.sin((d-b)*t/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h));
+}
+async function nearestAirfield(){
+  const q="[out:json][timeout:25];(node[\"aeroway\"~\"^(aerodrome|heliport|helipad)$\"](around:9000,"+S.lat+","+S.lon+");way[\"aeroway\"~\"^(aerodrome|heliport|helipad)$\"](around:9000,"+S.lat+","+S.lon+"););out center tags;";
+  const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),30000);
+  try{
+    const r=await fetch("https://overpass-api.de/api/interpreter",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:"data="+encodeURIComponent(q),signal:ctl.signal});
+    clearTimeout(to);if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();let best=null;
+    (j.elements||[]).forEach(e=>{
+      const la=e.type==="node"?e.lat:(e.center&&e.center.lat);
+      const lo=e.type==="node"?e.lon:(e.center&&e.center.lon);
+      if(la==null||lo==null)return;
+      const d=haversine(S.lat,S.lon,la,lo);
+      const kind=(e.tags&&e.tags.aeroway)||"aerodrome";
+      const label=kind==="aerodrome"?"airfield":kind;
+      const nm=(e.tags&&e.tags.name)||("unnamed "+label);
+      if(!best||d<best.d)best={d:d,name:nm,kind:label};
+    });
+    return best;
+  }catch(e){clearTimeout(to);return "error";}
+}
+
+/* ---- verdict ---- */
+function fmtDist(km){return km<1?Math.round(km*1000)+" m":km.toFixed(1)+" km";}
+
+async function runVerdict(){
+  const b=$("btn-verdict");b.disabled=true;b.innerHTML='<span class="spin"></span>Checking airspace…';
+  const reasons=[];let level="go";
+  const no=(t)=>{reasons.push({c:"bad",t:t});level="no";};
+  const warn=(t)=>{reasons.push({c:"warn",t:t});if(level==="go")level="caution";};
+  const ok=(t)=>{reasons.push({c:"good",t:t});};
+
+  if(!$("tg-reg").checked)no("Operator registration for "+(S.country||"this country")+" is not confirmed.");
+  else ok("Operator registration confirmed.");
+  if(!$("tg-ins").checked)no("Liability insurance covering "+(S.country||"this country")+" is not confirmed.");
+  else ok("Liability insurance confirmed.");
+  if(!$("tg-vlos").checked)no("Visual line of sight cannot be maintained.");
+  if(!$("tg-alt").checked)no("Flight would exceed 120 m above ground.");
+  if(!$("tg-people").checked)no("Uninvolved people are too close.");
+  if(!$("tg-day").checked)no("Not daylight — night flight needs specific authorisation.");
+
+  if(!S.degraded&&S.lat!=null){
+    const nf=await nearestAirfield();
+    if(nf==="error"){S.degraded=true;warn("Could not verify airspace (airfield lookup failed) — check the official geozone map.");}
+    else if(nf){
+      S.nearest=nf;
+      if(nf.d<1.5)no("Within "+fmtDist(nf.d)+" of "+nf.name+" ("+nf.kind+") — too close to fly.");
+      else if(nf.d<5)warn(fmtDist(nf.d)+" from "+nf.name+" ("+nf.kind+") — check the official geozone map before launching.");
+      else ok("No airfields within 9 km in OpenStreetMap data (nearest: "+nf.name+", "+fmtDist(nf.d)+").");
+    }else ok("No airfields within 9 km in OpenStreetMap data.");
+  }else{
+    warn("Airspace could not be verified — check the official geozone map and NOTAMs before flying.");
+  }
+  if(S.degraded&&level==="go")level="caution";
+
+  const box=$("verdict-box");
+  box.classList.remove("no","caution","go");box.classList.add(level);
+  $("verdict-word").textContent=level==="go"?"GO":(level==="no"?"NO-GO":"CAUTION");
+  $("verdict-sub").textContent=(S.country||"Unknown location")+(S.lat!=null?(" · "+S.lat.toFixed(4)+", "+S.lon.toFixed(4)):"")+" · guidance only, not legal clearance";
+  $("reasons").innerHTML=reasons.map(r=>'<li class="'+r.c+'">'+esc(r.t)+"</li>").join("");
+  renderRules();
+  b.disabled=false;b.textContent="Get verdict";
+  show("screen-verdict");
+}
+
+/* ---- manual mode ---- */
+function openManual(note){
+  const sel=$("country-select");
+  sel.innerHTML=Object.keys(RULES).sort((a,b)=>RULES[a].name.localeCompare(RULES[b].name))
+    .map(cc=>'<option value="'+cc+'">'+esc(RULES[cc].name)+"</option>").join("");
+  show("screen-manual");
+}
+function manualGo(){
+  S.cc=$("country-select").value;S.country=RULES[S.cc].name;
+  S.lat=null;S.lon=null;S.degraded=true;S.nearest=null;
+  toCheckScreen();
+}
+
+/* ---- wiring ---- */
+$("btn-go").addEventListener("click",startGeo);
+$("btn-manual").addEventListener("click",()=>{S.degraded=true;openManual();});
+$("btn-manual-go").addEventListener("click",manualGo);
+$("btn-manual-back").addEventListener("click",()=>show("screen-start"));
+$("btn-verdict").addEventListener("click",runVerdict);
+$("btn-back").addEventListener("click",()=>show("screen-start"));
+$("btn-again").addEventListener("click",()=>show("screen-start"));
+</script>
+</body>
+</html>
