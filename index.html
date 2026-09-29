@@ -7,6 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0d1418">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Can I Fly?">
+<link rel="apple-touch-icon" href="icon-180.png">
 <style>
 :root{
   color-scheme:light dark;
@@ -83,6 +90,12 @@ select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-
     <p class="lede">One button. Your location, the nearest airfields, and the local rules — boiled down to a single verdict.</p>
     <button class="big-btn" id="btn-go">Can I fly here?</button>
     <button class="ghost-btn" id="btn-manual">No GPS — pick a country manually</button>
+    <button class="ghost-btn hidden" id="btn-install">Install app</button>
+    <div class="card hidden" id="ios-hint">
+      <h2>Install this app</h2>
+      <p class="fineprint" style="margin:0 0 10px">On iPhone: tap <b>Share</b> in Safari, then <b>Add to Home Screen</b> — it will open full-screen like a native app and work offline.</p>
+      <button class="ghost-btn" id="ios-hint-dismiss" style="margin:0">Got it</button>
+    </div>
     <p class="fineprint">Guidance only — never legal clearance. This tool cannot see live geozone geometry or NOTAMs; it checks airfield proximity in OpenStreetMap data plus published country rules, and always hands off to the official source.</p>
   </section>
 
@@ -317,6 +330,34 @@ $("btn-manual-back").addEventListener("click",()=>show("screen-start"));
 $("btn-verdict").addEventListener("click",runVerdict);
 $("btn-back").addEventListener("click",()=>show("screen-start"));
 $("btn-again").addEventListener("click",()=>show("screen-start"));
+</script>
+<script>
+/* PWA: service worker registration + install UX */
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}
+(function(){
+  var gid=function(id){return document.getElementById(id);};
+  /* Android: native-feel Install button via beforeinstallprompt */
+  var deferred=null, btn=gid('btn-install');
+  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;btn.classList.remove('hidden');});
+  btn.addEventListener('click',function(){
+    if(!deferred)return;
+    deferred.prompt();
+    if(deferred.userChoice&&deferred.userChoice.then){deferred.userChoice.then(function(){deferred=null;btn.classList.add('hidden');}).catch(function(){});}
+  });
+  window.addEventListener('appinstalled',function(){deferred=null;btn.classList.add('hidden');});
+  /* iOS: one-time dismissible Add to Home Screen hint */
+  var isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent||'');
+  var standalone=(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
+  var hint=gid('ios-hint'), dismissed=false;
+  try{dismissed=localStorage.getItem('cifh_ios_hint_dismissed')==='1';}catch(e){}
+  if(isIOS&&!standalone&&!dismissed&&hint){
+    hint.classList.remove('hidden');
+    gid('ios-hint-dismiss').addEventListener('click',function(){
+      hint.classList.add('hidden');
+      try{localStorage.setItem('cifh_ios_hint_dismissed','1');}catch(e){}
+    });
+  }
+})();
 </script>
 </body>
 </html>
