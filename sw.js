@@ -1,7 +1,7 @@
 /* Can I Fly Here? — service worker.
    v2: cache-first app shell (same-origin), network-first for live APIs
    with a graceful offline fallback the app already handles as "degraded". */
-const CACHE = 'can-i-fly-here-v2';
+const CACHE = 'can-i-fly-here-v3';
 const ASSETS = [
   './',
   './index.html',
