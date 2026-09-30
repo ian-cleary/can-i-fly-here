@@ -105,6 +105,7 @@ select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-
     <p class="meta">Step 1 of 2 — confirm</p>
     <h1 id="check-title">CHECKING…</h1>
     <p class="loc-line" id="loc-line"></p>
+    <p class="loc-line" id="data-line"></p>
     <div id="degraded-banner" class="warn-banner hidden">Could not verify airspace automatically — running on country rules only. Verdict is capped at CAUTION.</div>
     <div class="card">
       <h2 id="rules-title">Local rules</h2>
@@ -211,6 +212,7 @@ function toCheckScreen(){
   loadToggles();
   $("check-title").textContent="CAN YOU FLY IN "+(S.country||"THIS COUNTRY").toUpperCase()+"?";
   $("loc-line").textContent=(S.lat!=null)?("GPS "+S.lat.toFixed(5)+", "+S.lon.toFixed(5)+(S.cc?" · "+S.cc:"")):"Manual country selection";
+  loadAirfields().then(()=>{$("data-line").textContent=AIRFIELDS_UPDATED?("Airfield data · updated "+AIRFIELDS_UPDATED):"";});
   $("degraded-banner").classList.toggle("hidden",!S.degraded);
   renderRules();show("screen-check");
 }
@@ -246,25 +248,27 @@ function haversine(a,b,c,d){
   const h=Math.sin((c-a)*t/2)**2+Math.cos(a*t)*Math.cos(c*t)*Math.sin((d-b)*t/2)**2;
   return 2*R*Math.asin(Math.sqrt(h));
 }
-async function nearestAirfield(){
-  const q="[out:json][timeout:25];(node[\"aeroway\"~\"^(aerodrome|heliport|helipad)$\"](around:9000,"+S.lat+","+S.lon+");way[\"aeroway\"~\"^(aerodrome|heliport|helipad)$\"](around:9000,"+S.lat+","+S.lon+"););out center tags;";
-  const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),30000);
+/* Embedded OurAirports data: {"updated":"YYYY-MM-DD","data":[[lat*1000,lon*1000,name,type],...]} */
+let AIRFIELDS=null,AIRFIELDS_UPDATED="";
+async function loadAirfields(){
+  if(AIRFIELDS)return AIRFIELDS;
   try{
-    const r=await fetch("https://overpass-api.de/api/interpreter",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:"data="+encodeURIComponent(q),signal:ctl.signal});
-    clearTimeout(to);if(!r.ok)throw new Error("HTTP "+r.status);
-    const j=await r.json();let best=null;
-    (j.elements||[]).forEach(e=>{
-      const la=e.type==="node"?e.lat:(e.center&&e.center.lat);
-      const lo=e.type==="node"?e.lon:(e.center&&e.center.lon);
-      if(la==null||lo==null)return;
-      const d=haversine(S.lat,S.lon,la,lo);
-      const kind=(e.tags&&e.tags.aeroway)||"aerodrome";
-      const label=kind==="aerodrome"?"airfield":kind;
-      const nm=(e.tags&&e.tags.name)||("unnamed "+label);
-      if(!best||d<best.d)best={d:d,name:nm,kind:label};
-    });
-    return best;
-  }catch(e){clearTimeout(to);return "error";}
+    const r=await fetch("airports.json",{cache:"no-cache"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    AIRFIELDS=j.data||[];AIRFIELDS_UPDATED=j.updated||"";
+  }catch(e){AIRFIELDS=[];}
+  return AIRFIELDS;
+}
+const TLABEL={L:"airport",M:"airport",S:"airfield",H:"heliport",B:"seaplane base"};
+function nearestAirfield(){
+  let best=null;
+  for(const a of AIRFIELDS){
+    const d=haversine(S.lat,S.lon,a[0]/1000,a[1]/1000);
+    if(d>9)continue;
+    if(!best||d<best.d)best={d:d,name:a[2],kind:TLABEL[a[3]]||"airfield"};
+  }
+  return best;
 }
 
 /* ---- verdict ---- */
@@ -291,14 +295,17 @@ async function runVerdict(){
   if(!$("tg-day").checked)no("Not daylight — night flight needs specific authorisation.");
 
   if(!S.degraded&&S.lat!=null){
-    const nf=await nearestAirfield();
-    if(nf==="error"){S.degraded=true;warn("Could not verify airspace (airfield lookup failed) — check the official geozone map.");}
-    else if(nf){
-      S.nearest=nf;
-      if(nf.d<1.5)no("Within "+fmtDist(nf.d)+" of "+nf.name+" ("+nf.kind+") — too close to fly.");
-      else if(nf.d<5)warn(fmtDist(nf.d)+" from "+nf.name+" ("+nf.kind+") — check the official geozone map before launching.");
-      else ok("No airfields within 9 km in OpenStreetMap data (nearest: "+nf.name+", "+fmtDist(nf.d)+").");
-    }else ok("No airfields within 9 km in OpenStreetMap data.");
+    await loadAirfields();
+    if(!AIRFIELDS.length){S.degraded=true;warn("Built-in airfield data could not be loaded — check the official geozone map.");}
+    else{
+      const nf=nearestAirfield();
+      if(nf){
+        S.nearest=nf;
+        if(nf.d<1.5)no("Within "+fmtDist(nf.d)+" of "+nf.name+" ("+nf.kind+") — too close to fly.");
+        else if(nf.d<5)warn(fmtDist(nf.d)+" from "+nf.name+" ("+nf.kind+") — check the official geozone map before launching.");
+        else ok("No airfields within 9 km in the built-in database (nearest: "+nf.name+", "+fmtDist(nf.d)+").");
+      }else ok("No airfields within 9 km in the built-in database.");
+    }
   }else{
     warn("Airspace could not be verified — check the official geozone map and NOTAMs before flying.");
   }

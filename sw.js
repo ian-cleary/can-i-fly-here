@@ -1,10 +1,12 @@
 /* Can I Fly Here? — service worker.
-   v2: cache-first app shell (same-origin), network-first for live APIs
-   with a graceful offline fallback the app already handles as "degraded". */
-const CACHE = 'can-i-fly-here-v3';
+   v4: cache-first app shell (same-origin) incl. embedded airfield data;
+   network-first for the reverse-geocode API, with a graceful offline
+   fallback the app already handles as "degraded". */
+const CACHE = 'can-i-fly-here-v4';
 const ASSETS = [
   './',
   './index.html',
+  './airports.json',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png',
