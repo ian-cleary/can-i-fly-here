@@ -1,0 +1,18 @@
+{
+  "appId": "com.iancleary.caniflyhere",
+  "appName": "Can I Fly Here?",
+  "webDir": "www",
+  "backgroundColor": "#0d1418",
+  "ios": {
+    "contentInset": "always"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#0d1418",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}

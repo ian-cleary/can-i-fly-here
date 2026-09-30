@@ -1,0 +1,13 @@
+# Dependencies / build output — never commit
+node_modules/
+www/
+ios/App/App/public/
+
+# Xcode / macOS
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# Logs
+npm-debug.log*
