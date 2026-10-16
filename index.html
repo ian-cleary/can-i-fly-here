@@ -71,6 +71,7 @@ h1{font-family:"Barlow Condensed",system-ui,-apple-system,"Segoe UI",sans-serif;
 .reasons li.good{color:var(--green);font-weight:600}
 .reasons li.bad{color:var(--red);font-weight:600}
 .reasons li.warn{color:var(--amber);font-weight:600}
+.reasons li.note{color:var(--muted);font-weight:400}
 .fineprint{font-size:14px;color:var(--muted);margin-top:22px}
 select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);margin:8px 0}
 .hidden{display:none!important}
@@ -271,6 +272,121 @@ function nearestAirfield(){
   return best;
 }
 
+/*PLACES-BLOCK-START*/
+/* ---- Google Places: sensitive-places layer (Places API New) ----
+   One Nearby Search (New) call per verdict run, radius 500 m. Empty
+   PLACES_API_KEY = feature fully dormant: no network call, no lines.
+   Never a clearance: absence of results is never reported as safety.
+   Key: "Can I Fly Here web key" in Google Cloud project
+   lithe-catbird-247912, restricted to "Places API (New)" + referrer
+   https://ian-cleary.github.io/can-i-fly-here/* (created 2026-10-16). */
+const PLACES_API_KEY = "AIzaSyDE-5GRA0Gdy7JxuWTr2JDHgg2nJm5pjnk";
+const PLACES_TYPES = [
+  "school","primary_school","secondary_school","preschool",
+  "hospital","police","stadium","arena","event_venue",
+  "church","hindu_temple","mosque","synagogue","buddhist_temple","shinto_shrine",
+  "tourist_attraction","playground","childrens_camp","park"
+];
+const PLACES_CATS = {
+  school:["school","primary_school","secondary_school","preschool"],
+  hospital:["hospital"],
+  police:["police"],
+  venue:["stadium","arena","event_venue"],
+  worship:["church","hindu_temple","mosque","synagogue","buddhist_temple","shinto_shrine"],
+  attraction:["tourist_attraction"],
+  kids:["playground","childrens_camp"],
+  park:["park"]
+};
+const PLACES_RADIUS_M = 500, PLACES_NEAR_M = 150, PLACES_MAX = 20, PLACES_TIMEOUT_MS = 6000;
+
+function placesCategory(types,primary){
+  const set=types||[];
+  const order=["school","hospital","police","venue","worship","attraction","kids","park"];
+  for(const cat of order)if(primary&&PLACES_CATS[cat].indexOf(primary)>=0)return cat;
+  for(const cat of order){for(const t of PLACES_CATS[cat]){if(set.indexOf(t)>=0)return cat;}}
+  return null;
+}
+function placesKindLabel(cat,primary){
+  if(cat==="school")return primary==="primary_school"?"Primary school":primary==="secondary_school"?"Secondary school":primary==="preschool"?"Preschool":"School";
+  if(cat==="venue")return primary==="stadium"?"Stadium":primary==="arena"?"Arena":"Event venue";
+  return null;
+}
+function placesMessage(h){
+  const n="“"+h.name+"”", dist=fmtDist(h.d/1000), near=h.d<=PLACES_NEAR_M, wide="in the wider area ("+dist+")";
+  switch(h.cat){
+    case "school":{const k=placesKindLabel(h.cat,h.primary)||"School";
+      return near?k+" "+n+" "+dist+" away — expect children and parents around at drop-off and pick-up times."
+                 :k+" "+n+" "+wide+" — keep an eye out for children.";}
+    case "hospital":
+      return near?"Hospital "+n+" "+dist+" away — keep clear of ambulance and helicopter operations; don't hover nearby."
+                 :"Hospital "+n+" "+wide+" — keep clear of its operations.";
+    case "police":
+      return "Police station "+n+" "+(near?dist+" away":wide)+" — a sensitive site; keep your distance.";
+    case "venue":{const k=placesKindLabel(h.cat,h.primary)||"Venue";
+      return k+" "+n+" "+(near?dist+" away":wide)+" — expect crowds on event days; check whether anything's on.";}
+    case "worship":
+      return "Place of worship "+n+" "+(near?dist+" away":wide)+" — be mindful of services and visitors.";
+    case "attraction":
+      return "Tourist attraction "+n+" "+(near?dist+" away":wide)+" — these draw crowds.";
+    case "kids":
+      return near?"Playground "+n+" "+dist+" away — children present; don't fly over it."
+                 :"Playground "+n+" "+wide+" — watch for children.";
+    case "park":
+      return n+" is here — open space, a reasonable spot to fly.";
+    default:return "";
+  }
+}
+function placesReasonsFromResponse(apiPlaces,lat,lon){
+  const hits=[];
+  for(const p of apiPlaces||[]){
+    const name=p&&p.displayName&&p.displayName.text?p.displayName.text:"Unnamed place";
+    const types=(p&&p.types)||[];
+    const primary=p&&p.primaryType?p.primaryType:null;
+    const loc=p&&p.location?p.location:{};
+    const d=haversine(lat,lon,loc.latitude,loc.longitude)*1000; /* metres */
+    const cat=placesCategory(types,primary);
+    if(!cat||!isFinite(d)||d>PLACES_RADIUS_M)continue;
+    hits.push({name:name,cat:cat,primary:primary,d:d});
+  }
+  hits.sort(function(a,b){return a.d-b.d;});
+  const lines=[];
+  const parks=hits.filter(function(h){return h.cat==="park";});
+  if(parks.length)lines.push({c:"good",t:placesMessage(parks[0])});
+  const sens=hits.filter(function(h){return h.cat!=="park";});
+  const shown=sens.slice(0,3);
+  for(const h of shown)lines.push({c:"warn",t:placesMessage(h)});
+  if(sens.length>3){
+    const extra=sens.length-3;
+    lines.push({c:"note",t:extra===1?"…and 1 more sensitive place within 500 m.":"…and "+extra+" more sensitive places within 500 m."});
+  }
+  if(!sens.length)lines.push({c:"note",t:"Places check: no schools, hospitals, stadiums or other sensitive places within 500 m (Google data — not a guarantee)."});
+  return {lines:lines,placesRendered:parks.length>0||shown.length>0};
+}
+async function checkPlacesSurroundings(lat,lon){
+  if(!PLACES_API_KEY)return {status:"nokey"};
+  const ctrl=new AbortController();
+  const timer=setTimeout(function(){ctrl.abort();},PLACES_TIMEOUT_MS);
+  try{
+    const r=await fetch("https://places.googleapis.com/v1/places:searchNearby",{
+      method:"POST",
+      headers:{"Content-Type":"application/json","X-Goog-Api-Key":PLACES_API_KEY,
+               "X-Goog-FieldMask":"places.displayName,places.types,places.primaryType,places.location"},
+      body:JSON.stringify({includedTypes:PLACES_TYPES,maxResultCount:PLACES_MAX,
+        locationRestriction:{circle:{center:{latitude:lat,longitude:lon},radius:PLACES_RADIUS_M}}}),
+      signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    return {status:"ok",places:j.places||[]};
+  }catch(e){clearTimeout(timer);return {status:"fail"};}
+}
+function placesOutcomeLines(pr,lat,lon){
+  if(pr.status==="nokey")return {lines:[],placesRendered:false}; /* dormant */
+  if(pr.status==="fail")return {lines:[{c:"warn",t:"Ground surroundings could not be checked — the Places lookup failed. Look around before launching."}],placesRendered:false};
+  return placesReasonsFromResponse(pr.places||[],lat,lon);
+}
+/*PLACES-BLOCK-END*/
+
 /* ---- verdict ---- */
 function fmtDist(km){return km<1?Math.round(km*1000)+" m":km.toFixed(1)+" km";}
 
@@ -308,6 +424,18 @@ async function runVerdict(){
     }
   }else{
     warn("Airspace could not be verified — check the official geozone map and NOTAMs before flying.");
+  }
+  /* Ground surroundings (Google Places) — one lookup per verdict, never a clearance. */
+  if(!S.degraded&&S.lat!=null){
+    b.innerHTML='<span class="spin"></span>Checking surroundings…';
+    const pr=await checkPlacesSurroundings(S.lat,S.lon);
+    const pl=placesOutcomeLines(pr,S.lat,S.lon);
+    for(const r of pl.lines){
+      if(r.c==="good")ok(r.t);
+      else if(r.c==="note")reasons.push({c:"note",t:r.t});
+      else warn(r.t);
+    }
+    if(pl.placesRendered)reasons.push({c:"note",t:"Place data © Google."});
   }
   if(S.degraded&&level==="go")level="caution";
 
