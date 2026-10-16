@@ -2,7 +2,7 @@
    v5: cache-first app shell (same-origin) incl. embedded airfield data;
    network-first for the reverse-geocode API, with a graceful offline
    fallback the app already handles as "degraded". */
-const CACHE = 'flysafe-v7';
+const CACHE = 'flysafe-v8';
 const ASSETS = [
   './',
   './index.html',
