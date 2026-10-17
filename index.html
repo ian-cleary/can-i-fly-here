@@ -272,6 +272,57 @@ function nearestAirfield(){
   return best;
 }
 
+/* ---- Restricted airspace (UK): MoD prohibited places, nuclear installations, UK AIP ENR 5.1 ----
+   Data: restricted.json (built from SI 2026/64, SI 2016/1003 via UK AIP ENR 5.1).
+   Circles are expanded to polygons at load so there is a single geometry code path. */
+let RESTRICTED=null,RESTRICTED_UPDATED="",RESTRICTED_FAILED=false;
+async function loadRestricted(){
+  if(RESTRICTED||RESTRICTED_FAILED)return RESTRICTED;
+  try{
+    const r=await fetch("restricted.json",{cache:"no-cache"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    RESTRICTED=j.areas||[];RESTRICTED_UPDATED=j.updated||"";
+    for(const a of RESTRICTED){
+      if(a.circle&&!a.poly)a.poly=circleToPoly(a.circle[0],a.circle[1],a.radius_km);
+    }
+  }catch(e){RESTRICTED_FAILED=true;RESTRICTED=null;}
+  return RESTRICTED;
+}
+function circleToPoly(lat,lon,rKm){
+  const pts=[],c=Math.cos(lat*Math.PI/180);
+  for(let d=0;d<360;d+=10){
+    const br=d*Math.PI/180;
+    pts.push([lat+(rKm/111.32)*Math.cos(br),lon+(rKm/(111.32*c))*Math.sin(br)]);
+  }
+  return pts;
+}
+function inUK(lat,lon){return lat>=49.7&&lat<=60.9&&lon>=-8.2&&lon<=1.9;}
+function pointInPoly(lat,lon,poly){
+  let inside=false;
+  for(let i=0,j=poly.length-1;i<poly.length;j=i++){
+    const xi=poly[i][1],yi=poly[i][0],xj=poly[j][1],yj=poly[j][0];
+    if(((yi>lat)!==(yj>lat))&&(lon<(xj-xi)*(lat-yi)/(yj-yi)+xi))inside=!inside;
+  }
+  return inside;
+}
+function distToPolyKm(lat,lon,poly){
+  const c=Math.cos(poly[0][0]*Math.PI/180);
+  const px=lon*c*111.32,py=lat*111.32;
+  let best=1e9;
+  for(let i=0;i<poly.length;i++){
+    const a=poly[i],b=poly[(i+1)%poly.length];
+    const ax=a[1]*c*111.32,ay=a[0]*111.32,bx=b[1]*c*111.32,by=b[0]*111.32;
+    const dx=bx-ax,dy=by-ay,L2=dx*dx+dy*dy;
+    let t=L2?((px-ax)*dx+(py-ay)*dy)/L2:0;
+    t=Math.max(0,Math.min(1,t));
+    const dd=Math.hypot(px-(ax+t*dx),py-(ay+t*dy));
+    if(dd<best)best=dd;
+  }
+  return best;
+}
+function fmtAlt(ft){return Number(ft).toLocaleString("en-GB")+" ft";}
+
 /*PLACES-BLOCK-START*/
 /* ---- Google Places: sensitive-places layer (Places API New) ----
    One Nearby Search (New) call per verdict run, radius 500 m. Empty
@@ -417,13 +468,37 @@ async function runVerdict(){
       const nf=nearestAirfield();
       if(nf){
         S.nearest=nf;
-        if(nf.d<1.5)no("Within "+fmtDist(nf.d)+" of "+nf.name+" ("+nf.kind+") — too close to fly.");
+        if(nf.d<2)no("Within "+fmtDist(nf.d)+" of "+nf.name+" ("+nf.kind+") — inside the standard flight restriction zone for an airfield; permission from the airfield operator is required.");
         else if(nf.d<5)warn(fmtDist(nf.d)+" from "+nf.name+" ("+nf.kind+") — check the official geozone map before launching.");
         else ok("No airfields within 9 km in the built-in database (nearest: "+nf.name+", "+fmtDist(nf.d)+").");
       }else ok("No airfields within 9 km in the built-in database.");
     }
   }else{
     warn("Airspace could not be verified — check the official geozone map and NOTAMs before flying.");
+  }
+  /* Restricted airspace (UK only): MoD prohibited places, nuclear installations, UK AIP ENR 5.1.
+     Never GO on missing data: a failed load caps the verdict at CAUTION. */
+  if(!S.degraded&&S.lat!=null&&inUK(S.lat,S.lon)){
+    b.innerHTML='<span class="spin"></span>Checking restricted airspace…';
+    const ra=await loadRestricted();
+    if(!ra){
+      warn("Restricted-airspace data could not be loaded — the prohibited-place check was skipped. Treat this area with caution and check the official drone map before flying.");
+    }else{
+      let hit=null;
+      for(const a of ra){if(a.class==="prohibited"&&pointInPoly(S.lat,S.lon,a.poly)){hit={a:a,k:"in-prohibited"};break;}}
+      if(!hit)for(const a of ra){if(a.class==="restricted"&&pointInPoly(S.lat,S.lon,a.poly)){hit={a:a,k:"in-restricted"};break;}}
+      if(!hit){
+        let bd=1e9,ba=null;
+        for(const a of ra){if(a.class!=="prohibited")continue;const d=distToPolyKm(S.lat,S.lon,a.poly);if(d<bd){bd=d;ba=a;}}
+        if(ba&&bd<=1)hit={a:ba,k:"near-prohibited",d:bd};
+      }
+      if(hit){
+        const a=hit.a,note=a.note?(" ("+a.note+")"):"";
+        if(hit.k==="in-prohibited")no("Inside the "+a.label+" — "+a.name+". No drone flight below "+fmtAlt(a.alt_ft)+" AMSL here without permission ("+a.basis+")."+note);
+        else if(hit.k==="in-restricted")warn("Inside the "+a.label+" — "+a.name+". This is a restricted/danger area and may be active (e.g. live firing). Check the official map and NOTAMs before flying ("+a.basis+")."+note);
+        else warn(fmtDist(hit.d)+" from the "+a.label+" — "+a.name+". You are close to a prohibited place; do not fly closer without permission ("+a.basis+")."+note);
+      }else ok("No prohibited or restricted airspace at this location in the built-in database (UK AIP ENR 5.1, MoD prohibited places, nuclear sites).");
+    }
   }
   /* Ground surroundings (Google Places) — one lookup per verdict, never a clearance. */
   if(!S.degraded&&S.lat!=null){
