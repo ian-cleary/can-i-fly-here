@@ -2,11 +2,12 @@
    v5: cache-first app shell (same-origin) incl. embedded airfield data;
    network-first for the reverse-geocode API, with a graceful offline
    fallback the app already handles as "degraded". */
-const CACHE = 'flysafe-v9';
+const CACHE = 'flysafe-v10';
 const ASSETS = [
   './',
   './index.html',
   './airports.json',
+  './restricted.json',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png',
@@ -49,6 +50,20 @@ self.addEventListener('fetch', (event) => {
   /* Airfield data: network-first so the daily data refresh actually
      reaches installed clients; cache is only the offline fallback. */
   if (url.origin === self.location.origin && url.pathname.endsWith('airports.json')) {
+    event.respondWith(
+      fetch(req).then((res) => {
+        if (res && res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE).then((cache) => cache.put(req, copy)).catch(() => {});
+        }
+        return res;
+      }).catch(() => caches.match(req, { ignoreSearch: true }))
+    );
+    return;
+  }
+
+  /* Restricted-airspace data: network-first, same pattern as airfields. */
+  if (url.origin === self.location.origin && url.pathname.endsWith('restricted.json')) {
     event.respondWith(
       fetch(req).then((res) => {
         if (res && res.ok) {
