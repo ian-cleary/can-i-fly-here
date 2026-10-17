@@ -1,0 +1,8830 @@
+{
+ "source": "MoD prohibited places: SI 2026/64 (legislation.gov.uk); Nuclear installations: SI 2016/1003 via UK AIP ENR 5.1; Other restricted/danger areas: UK AIP ENR 5.1 (NATS eAIP, AIRAC 2026-10-01)",
+ "updated": "2026-10-17",
+ "areas": [
+  {
+   "name": "Abbey Wood",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     51.510739,
+     -2.553019
+    ],
+    [
+     51.510883,
+     -2.550828
+    ],
+    [
+     51.509789,
+     -2.550647
+    ],
+    [
+     51.508944,
+     -2.5528
+    ],
+    [
+     51.506711,
+     -2.555517
+    ],
+    [
+     51.504736,
+     -2.549786
+    ],
+    [
+     51.501844,
+     -2.555133
+    ],
+    [
+     51.499022,
+     -2.564108
+    ],
+    [
+     51.501014,
+     -2.566
+    ],
+    [
+     51.505461,
+     -2.562094
+    ],
+    [
+     51.510739,
+     -2.553019
+    ]
+   ]
+  },
+  {
+   "name": "RAF Alconbury",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.367806,
+     -0.232767
+    ],
+    [
+     52.37155,
+     -0.226225
+    ],
+    [
+     52.370514,
+     -0.215003
+    ],
+    [
+     52.368347,
+     -0.210767
+    ],
+    [
+     52.359706,
+     -0.212256
+    ],
+    [
+     52.358444,
+     -0.214733
+    ],
+    [
+     52.367806,
+     -0.232767
+    ]
+   ]
+  },
+  {
+   "name": "Aldermaston",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 800,
+   "poly": [
+    [
+     51.375164,
+     -1.148031
+    ],
+    [
+     51.377992,
+     -1.133697
+    ],
+    [
+     51.369803,
+     -1.121806
+    ],
+    [
+     51.36555,
+     -1.128336
+    ],
+    [
+     51.359672,
+     -1.150731
+    ],
+    [
+     51.360794,
+     -1.161508
+    ],
+    [
+     51.375164,
+     -1.148031
+    ]
+   ]
+  },
+  {
+   "name": "Barrow-in-Furness",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     54.111056,
+     -3.240094
+    ],
+    [
+     54.112211,
+     -3.235756
+    ],
+    [
+     54.109383,
+     -3.227586
+    ],
+    [
+     54.107553,
+     -3.228831
+    ],
+    [
+     54.104225,
+     -3.217253
+    ],
+    [
+     54.103103,
+     -3.219575
+    ],
+    [
+     54.103372,
+     -3.224172
+    ],
+    [
+     54.105139,
+     -3.230953
+    ],
+    [
+     54.101847,
+     -3.233353
+    ],
+    [
+     54.099189,
+     -3.223075
+    ],
+    [
+     54.097483,
+     -3.228478
+    ],
+    [
+     54.099706,
+     -3.234658
+    ],
+    [
+     54.103275,
+     -3.239808
+    ],
+    [
+     54.10785,
+     -3.241097
+    ],
+    [
+     54.111056,
+     -3.240094
+    ]
+   ]
+  },
+  {
+   "name": "Beith",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 900,
+   "poly": [
+    [
+     55.738325,
+     -4.634261
+    ],
+    [
+     55.739175,
+     -4.627314
+    ],
+    [
+     55.729611,
+     -4.605619
+    ],
+    [
+     55.723386,
+     -4.609208
+    ],
+    [
+     55.707947,
+     -4.635061
+    ],
+    [
+     55.723672,
+     -4.649706
+    ],
+    [
+     55.738325,
+     -4.634261
+    ]
+   ]
+  },
+  {
+   "name": "Burghfield",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     51.416272,
+     -1.031353
+    ],
+    [
+     51.410739,
+     -1.011808
+    ],
+    [
+     51.401761,
+     -1.021228
+    ],
+    [
+     51.399175,
+     -1.027714
+    ],
+    [
+     51.400042,
+     -1.030764
+    ],
+    [
+     51.416272,
+     -1.031353
+    ]
+   ]
+  },
+  {
+   "name": "HMNB Clyde",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 2900,
+   "poly": [
+    [
+     56.16545,
+     -4.787853
+    ],
+    [
+     56.152761,
+     -4.739606
+    ],
+    [
+     56.049125,
+     -4.776994
+    ],
+    [
+     56.0364,
+     -4.795767
+    ],
+    [
+     56.037033,
+     -4.858944
+    ],
+    [
+     56.052536,
+     -4.881792
+    ],
+    [
+     56.067303,
+     -4.875053
+    ],
+    [
+     56.16545,
+     -4.787853
+    ]
+   ]
+  },
+  {
+   "name": "MOD Corsham",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 900,
+   "poly": [
+    [
+     51.422564,
+     -2.221497
+    ],
+    [
+     51.430233,
+     -2.20895
+    ],
+    [
+     51.428336,
+     -2.206583
+    ],
+    [
+     51.422986,
+     -2.206817
+    ],
+    [
+     51.419867,
+     -2.211133
+    ],
+    [
+     51.418931,
+     -2.213825
+    ],
+    [
+     51.422564,
+     -2.221497
+    ]
+   ]
+  },
+  {
+   "name": "Hereford",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1000,
+   "poly": [
+    [
+     52.089044,
+     -2.800586
+    ],
+    [
+     52.089178,
+     -2.797514
+    ],
+    [
+     52.084858,
+     -2.786789
+    ],
+    [
+     52.081742,
+     -2.788314
+    ],
+    [
+     52.078108,
+     -2.795333
+    ],
+    [
+     52.079583,
+     -2.803525
+    ],
+    [
+     52.083081,
+     -2.803892
+    ],
+    [
+     52.089044,
+     -2.800586
+    ]
+   ]
+  },
+  {
+   "name": "Crombie",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     56.051008,
+     -3.540244
+    ],
+    [
+     56.050478,
+     -3.532222
+    ],
+    [
+     56.04085,
+     -3.510931
+    ],
+    [
+     56.034708,
+     -3.514328
+    ],
+    [
+     56.030547,
+     -3.529367
+    ],
+    [
+     56.040253,
+     -3.560886
+    ],
+    [
+     56.051008,
+     -3.540244
+    ]
+   ]
+  },
+  {
+   "name": "RAF Croughton",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 900,
+   "poly": [
+    [
+     51.994008,
+     -1.198317
+    ],
+    [
+     51.996947,
+     -1.193925
+    ],
+    [
+     51.997128,
+     -1.182825
+    ],
+    [
+     51.996039,
+     -1.162039
+    ],
+    [
+     51.9841,
+     -1.1738
+    ],
+    [
+     51.981675,
+     -1.179736
+    ],
+    [
+     51.979844,
+     -1.1933
+    ],
+    [
+     51.994008,
+     -1.198317
+    ]
+   ]
+  },
+  {
+   "name": "HMNB Devonport (Area 1)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     50.398436,
+     -4.206519
+    ],
+    [
+     50.403206,
+     -4.202506
+    ],
+    [
+     50.399722,
+     -4.184767
+    ],
+    [
+     50.3937,
+     -4.175869
+    ],
+    [
+     50.380025,
+     -4.182875
+    ],
+    [
+     50.379447,
+     -4.185669
+    ],
+    [
+     50.398436,
+     -4.206519
+    ]
+   ]
+  },
+  {
+   "name": "HMNB Devonport (Area 2)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     50.375219,
+     -4.184497
+    ],
+    [
+     50.378281,
+     -4.178458
+    ],
+    [
+     50.378528,
+     -4.176383
+    ],
+    [
+     50.377058,
+     -4.176092
+    ],
+    [
+     50.366325,
+     -4.179947
+    ],
+    [
+     50.364753,
+     -4.181356
+    ],
+    [
+     50.367178,
+     -4.185608
+    ],
+    [
+     50.375219,
+     -4.184497
+    ]
+   ]
+  },
+  {
+   "name": "RAF Digby",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.106567,
+     -0.453792
+    ],
+    [
+     53.105164,
+     -0.437131
+    ],
+    [
+     53.103925,
+     -0.431903
+    ],
+    [
+     53.097842,
+     -0.429356
+    ],
+    [
+     53.093794,
+     -0.432611
+    ],
+    [
+     53.094872,
+     -0.456092
+    ],
+    [
+     53.100533,
+     -0.455739
+    ],
+    [
+     53.106567,
+     -0.453792
+    ]
+   ]
+  },
+  {
+   "name": "Donnington",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.73025,
+     -2.466147
+    ],
+    [
+     52.729522,
+     -2.456708
+    ],
+    [
+     52.733142,
+     -2.452808
+    ],
+    [
+     52.730547,
+     -2.440108
+    ],
+    [
+     52.725475,
+     -2.436828
+    ],
+    [
+     52.724131,
+     -2.437253
+    ],
+    [
+     52.717022,
+     -2.451544
+    ],
+    [
+     52.725658,
+     -2.463692
+    ],
+    [
+     52.73025,
+     -2.466147
+    ]
+   ]
+  },
+  {
+   "name": "RAF Fairford",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 800,
+   "poly": [
+    [
+     51.684067,
+     -1.819656
+    ],
+    [
+     51.701094,
+     -1.774519
+    ],
+    [
+     51.700031,
+     -1.767956
+    ],
+    [
+     51.691906,
+     -1.762378
+    ],
+    [
+     51.676447,
+     -1.757986
+    ],
+    [
+     51.672911,
+     -1.775997
+    ],
+    [
+     51.674567,
+     -1.805264
+    ],
+    [
+     51.6799,
+     -1.817017
+    ],
+    [
+     51.684067,
+     -1.819656
+    ]
+   ]
+  },
+  {
+   "name": "RAF Feltwell",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.482744,
+     0.504983
+    ],
+    [
+     52.485264,
+     0.508
+    ],
+    [
+     52.485903,
+     0.519247
+    ],
+    [
+     52.482461,
+     0.527389
+    ],
+    [
+     52.478417,
+     0.529119
+    ],
+    [
+     52.472678,
+     0.517842
+    ],
+    [
+     52.474981,
+     0.509647
+    ],
+    [
+     52.482744,
+     0.504983
+    ]
+   ]
+  },
+  {
+   "name": "RAF Fylingdales",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1400,
+   "poly": [
+    [
+     54.387258,
+     -0.681089
+    ],
+    [
+     54.388658,
+     -0.66705
+    ],
+    [
+     54.386544,
+     -0.653078
+    ],
+    [
+     54.381836,
+     -0.643303
+    ],
+    [
+     54.374819,
+     -0.635831
+    ],
+    [
+     54.352131,
+     -0.665236
+    ],
+    [
+     54.352306,
+     -0.6858
+    ],
+    [
+     54.377356,
+     -0.684256
+    ],
+    [
+     54.387258,
+     -0.681089
+    ]
+   ]
+  },
+  {
+   "name": "Gosport",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.839108,
+     -1.158892
+    ],
+    [
+     50.835008,
+     -1.148867
+    ],
+    [
+     50.827211,
+     -1.144219
+    ],
+    [
+     50.818008,
+     -1.1419
+    ],
+    [
+     50.817053,
+     -1.149083
+    ],
+    [
+     50.817808,
+     -1.160528
+    ],
+    [
+     50.822975,
+     -1.164492
+    ],
+    [
+     50.831053,
+     -1.166092
+    ],
+    [
+     50.839108,
+     -1.158892
+    ]
+   ]
+  },
+  {
+   "name": "Palace Barracks",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     54.632442,
+     -5.846206
+    ],
+    [
+     54.630625,
+     -5.840586
+    ],
+    [
+     54.623719,
+     -5.841478
+    ],
+    [
+     54.62135,
+     -5.8455
+    ],
+    [
+     54.622886,
+     -5.853131
+    ],
+    [
+     54.626033,
+     -5.848625
+    ],
+    [
+     54.627289,
+     -5.851814
+    ],
+    [
+     54.632442,
+     -5.846206
+    ]
+   ]
+  },
+  {
+   "name": "HMS Excellent (Horsea Island)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.838161,
+     -1.106842
+    ],
+    [
+     50.839983,
+     -1.106008
+    ],
+    [
+     50.833789,
+     -1.091392
+    ],
+    [
+     50.831903,
+     -1.092092
+    ],
+    [
+     50.830972,
+     -1.093769
+    ],
+    [
+     50.838161,
+     -1.106842
+    ]
+   ]
+  },
+  {
+   "name": "Kineton",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.163111,
+     -1.473167
+    ],
+    [
+     52.170236,
+     -1.448897
+    ],
+    [
+     52.158814,
+     -1.434481
+    ],
+    [
+     52.144869,
+     -1.443217
+    ],
+    [
+     52.1271,
+     -1.469817
+    ],
+    [
+     52.137431,
+     -1.506003
+    ],
+    [
+     52.149306,
+     -1.495206
+    ],
+    [
+     52.163111,
+     -1.473167
+    ]
+   ]
+  },
+  {
+   "name": "RAF Lakenheath",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.4054,
+     0.533644
+    ],
+    [
+     52.422775,
+     0.539589
+    ],
+    [
+     52.422672,
+     0.591503
+    ],
+    [
+     52.400044,
+     0.576458
+    ],
+    [
+     52.389731,
+     0.545461
+    ],
+    [
+     52.384131,
+     0.542311
+    ],
+    [
+     52.384686,
+     0.534319
+    ],
+    [
+     52.390233,
+     0.532658
+    ],
+    [
+     52.4054,
+     0.533644
+    ]
+   ]
+  },
+  {
+   "name": "Thiepval Barracks",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     54.526844,
+     -6.052403
+    ],
+    [
+     54.527567,
+     -6.043067
+    ],
+    [
+     54.524589,
+     -6.041653
+    ],
+    [
+     54.521058,
+     -6.048397
+    ],
+    [
+     54.519467,
+     -6.056031
+    ],
+    [
+     54.524797,
+     -6.056353
+    ],
+    [
+     54.526844,
+     -6.052403
+    ]
+   ]
+  },
+  {
+   "name": "Longtown",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     55.005886,
+     -2.994431
+    ],
+    [
+     54.9955,
+     -2.98645
+    ],
+    [
+     54.979469,
+     -3.019664
+    ],
+    [
+     54.981453,
+     -3.025042
+    ],
+    [
+     54.989681,
+     -3.0334
+    ],
+    [
+     55.005886,
+     -2.994431
+    ]
+   ]
+  },
+  {
+   "name": "RAF Menwith Hill",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1200,
+   "poly": [
+    [
+     54.015058,
+     -1.700006
+    ],
+    [
+     54.016936,
+     -1.681267
+    ],
+    [
+     54.002608,
+     -1.672756
+    ],
+    [
+     53.998553,
+     -1.692044
+    ],
+    [
+     54.015058,
+     -1.700006
+    ]
+   ]
+  },
+  {
+   "name": "RAF Mildenhall",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.370464,
+     0.4627
+    ],
+    [
+     52.374103,
+     0.470981
+    ],
+    [
+     52.363019,
+     0.514358
+    ],
+    [
+     52.357367,
+     0.515083
+    ],
+    [
+     52.351319,
+     0.487078
+    ],
+    [
+     52.357794,
+     0.463781
+    ],
+    [
+     52.364503,
+     0.458139
+    ],
+    [
+     52.370464,
+     0.4627
+    ]
+   ]
+  },
+  {
+   "name": "RAF Molesworth",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.390694,
+     -0.432289
+    ],
+    [
+     52.393703,
+     -0.427475
+    ],
+    [
+     52.395472,
+     -0.418219
+    ],
+    [
+     52.387578,
+     -0.400611
+    ],
+    [
+     52.3797,
+     -0.402639
+    ],
+    [
+     52.377381,
+     -0.429311
+    ],
+    [
+     52.378786,
+     -0.434239
+    ],
+    [
+     52.38335,
+     -0.438361
+    ],
+    [
+     52.390694,
+     -0.432289
+    ]
+   ]
+  },
+  {
+   "name": "Northwood",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 900,
+   "poly": [
+    [
+     51.620539,
+     -0.413014
+    ],
+    [
+     51.622139,
+     -0.410775
+    ],
+    [
+     51.622003,
+     -0.408375
+    ],
+    [
+     51.621292,
+     -0.407664
+    ],
+    [
+     51.618175,
+     -0.407628
+    ],
+    [
+     51.616694,
+     -0.408678
+    ],
+    [
+     51.617481,
+     -0.412994
+    ],
+    [
+     51.618197,
+     -0.414167
+    ],
+    [
+     51.620539,
+     -0.413014
+    ]
+   ]
+  },
+  {
+   "name": "MOD Oakhanger",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 800,
+   "poly": [
+    [
+     51.116725,
+     -0.916717
+    ],
+    [
+     51.117989,
+     -0.912667
+    ],
+    [
+     51.118622,
+     -0.906636
+    ],
+    [
+     51.118053,
+     -0.902225
+    ],
+    [
+     51.113419,
+     -0.903386
+    ],
+    [
+     51.111708,
+     -0.906394
+    ],
+    [
+     51.111553,
+     -0.908497
+    ],
+    [
+     51.113861,
+     -0.9154
+    ],
+    [
+     51.116725,
+     -0.916717
+    ]
+   ]
+  },
+  {
+   "name": "Plymouth",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     50.419878,
+     -4.201275
+    ],
+    [
+     50.429156,
+     -4.191422
+    ],
+    [
+     50.426375,
+     -4.184628
+    ],
+    [
+     50.423278,
+     -4.187656
+    ],
+    [
+     50.424369,
+     -4.190836
+    ],
+    [
+     50.419006,
+     -4.194125
+    ],
+    [
+     50.416247,
+     -4.18645
+    ],
+    [
+     50.410906,
+     -4.181947
+    ],
+    [
+     50.407997,
+     -4.188906
+    ],
+    [
+     50.408414,
+     -4.201944
+    ],
+    [
+     50.419878,
+     -4.201275
+    ]
+   ]
+  },
+  {
+   "name": "Poole (Area 1)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.713064,
+     -2.022519
+    ],
+    [
+     50.713983,
+     -2.021714
+    ],
+    [
+     50.713228,
+     -2.019536
+    ],
+    [
+     50.711714,
+     -2.020806
+    ],
+    [
+     50.711558,
+     -2.021319
+    ],
+    [
+     50.712042,
+     -2.022836
+    ],
+    [
+     50.713064,
+     -2.022519
+    ]
+   ]
+  },
+  {
+   "name": "Poole (Area 2)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.722431,
+     -2.028628
+    ],
+    [
+     50.724039,
+     -2.020939
+    ],
+    [
+     50.716433,
+     -2.017494
+    ],
+    [
+     50.715522,
+     -2.01845
+    ],
+    [
+     50.714964,
+     -2.020039
+    ],
+    [
+     50.71565,
+     -2.023031
+    ],
+    [
+     50.718858,
+     -2.028464
+    ],
+    [
+     50.722431,
+     -2.028628
+    ]
+   ]
+  },
+  {
+   "name": "Porton Down",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1100,
+   "poly": [
+    [
+     51.133519,
+     -1.713294
+    ],
+    [
+     51.164286,
+     -1.642828
+    ],
+    [
+     51.159811,
+     -1.626086
+    ],
+    [
+     51.135903,
+     -1.616478
+    ],
+    [
+     51.125869,
+     -1.626928
+    ],
+    [
+     51.117547,
+     -1.644983
+    ],
+    [
+     51.100175,
+     -1.721458
+    ],
+    [
+     51.110383,
+     -1.746478
+    ],
+    [
+     51.133519,
+     -1.713294
+    ]
+   ]
+  },
+  {
+   "name": "HMNB Portsmouth",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.807622,
+     -1.113425
+    ],
+    [
+     50.811819,
+     -1.104403
+    ],
+    [
+     50.809858,
+     -1.091175
+    ],
+    [
+     50.808139,
+     -1.089942
+    ],
+    [
+     50.804778,
+     -1.089053
+    ],
+    [
+     50.799992,
+     -1.094839
+    ],
+    [
+     50.799725,
+     -1.104919
+    ],
+    [
+     50.797806,
+     -1.109906
+    ],
+    [
+     50.797789,
+     -1.11305
+    ],
+    [
+     50.807622,
+     -1.113425
+    ]
+   ]
+  },
+  {
+   "name": "Raynesway",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.912681,
+     -1.434861
+    ],
+    [
+     52.910244,
+     -1.430197
+    ],
+    [
+     52.906811,
+     -1.431272
+    ],
+    [
+     52.906581,
+     -1.434281
+    ],
+    [
+     52.908378,
+     -1.435336
+    ],
+    [
+     52.910289,
+     -1.438983
+    ],
+    [
+     52.911125,
+     -1.439656
+    ],
+    [
+     52.912681,
+     -1.434861
+    ]
+   ]
+  },
+  {
+   "name": "Sennybridge",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1100,
+   "poly": [
+    [
+     51.953022,
+     -3.571064
+    ],
+    [
+     51.953333,
+     -3.569794
+    ],
+    [
+     51.952236,
+     -3.565578
+    ],
+    [
+     51.94985,
+     -3.566833
+    ],
+    [
+     51.945444,
+     -3.572411
+    ],
+    [
+     51.944867,
+     -3.574611
+    ],
+    [
+     51.945556,
+     -3.576169
+    ],
+    [
+     51.947744,
+     -3.5775
+    ],
+    [
+     51.948889,
+     -3.576872
+    ],
+    [
+     51.953022,
+     -3.571064
+    ]
+   ]
+  },
+  {
+   "name": "Southwick Park",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 700,
+   "poly": [
+    [
+     50.879408,
+     -1.104
+    ],
+    [
+     50.877631,
+     -1.094342
+    ],
+    [
+     50.876047,
+     -1.091142
+    ],
+    [
+     50.873469,
+     -1.098483
+    ],
+    [
+     50.873286,
+     -1.1099
+    ],
+    [
+     50.873961,
+     -1.112056
+    ],
+    [
+     50.876792,
+     -1.109322
+    ],
+    [
+     50.879408,
+     -1.104
+    ]
+   ]
+  },
+  {
+   "name": "St Athan",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     51.411864,
+     -3.4512
+    ],
+    [
+     51.412914,
+     -3.447944
+    ],
+    [
+     51.412078,
+     -3.417925
+    ],
+    [
+     51.405728,
+     -3.416647
+    ],
+    [
+     51.402853,
+     -3.429322
+    ],
+    [
+     51.400936,
+     -3.447758
+    ],
+    [
+     51.405303,
+     -3.454333
+    ],
+    [
+     51.411864,
+     -3.4512
+    ]
+   ]
+  },
+  {
+   "name": "Taunton (UKHO)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     51.024722,
+     -3.078633
+    ],
+    [
+     51.024739,
+     -3.076575
+    ],
+    [
+     51.023867,
+     -3.073342
+    ],
+    [
+     51.021717,
+     -3.072672
+    ],
+    [
+     51.021503,
+     -3.075142
+    ],
+    [
+     51.021606,
+     -3.077164
+    ],
+    [
+     51.023356,
+     -3.080408
+    ],
+    [
+     51.024722,
+     -3.078633
+    ]
+   ]
+  },
+  {
+   "name": "Thorney Island",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.831536,
+     -0.938047
+    ],
+    [
+     50.833514,
+     -0.917072
+    ],
+    [
+     50.824756,
+     -0.903261
+    ],
+    [
+     50.803642,
+     -0.903833
+    ],
+    [
+     50.805497,
+     -0.920939
+    ],
+    [
+     50.812419,
+     -0.928975
+    ],
+    [
+     50.815422,
+     -0.942614
+    ],
+    [
+     50.827539,
+     -0.941408
+    ],
+    [
+     50.831536,
+     -0.938047
+    ]
+   ]
+  },
+  {
+   "name": "RAF Welford",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 1000,
+   "poly": [
+    [
+     51.472508,
+     -1.417469
+    ],
+    [
+     51.483483,
+     -1.409258
+    ],
+    [
+     51.479289,
+     -1.395056
+    ],
+    [
+     51.464936,
+     -1.384408
+    ],
+    [
+     51.457714,
+     -1.393597
+    ],
+    [
+     51.458147,
+     -1.399256
+    ],
+    [
+     51.472508,
+     -1.417469
+    ]
+   ]
+  },
+  {
+   "name": "HMS Excellent (Whale Island)",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 500,
+   "poly": [
+    [
+     50.819017,
+     -1.099414
+    ],
+    [
+     50.820372,
+     -1.098169
+    ],
+    [
+     50.820672,
+     -1.096028
+    ],
+    [
+     50.819231,
+     -1.094078
+    ],
+    [
+     50.815083,
+     -1.092475
+    ],
+    [
+     50.812811,
+     -1.094969
+    ],
+    [
+     50.812506,
+     -1.101108
+    ],
+    [
+     50.813578,
+     -1.102061
+    ],
+    [
+     50.819017,
+     -1.099414
+    ]
+   ]
+  },
+  {
+   "name": "RAF Wyton",
+   "class": "prohibited",
+   "kind": "mod",
+   "label": "MoD prohibited place",
+   "basis": "Prohibited Places Regulations 2026 (SI 2026/64); approaching a prohibited place is an offence under the National Security Act 2023",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.354831,
+     -0.131767
+    ],
+    [
+     52.357825,
+     -0.126622
+    ],
+    [
+     52.356625,
+     -0.111522
+    ],
+    [
+     52.351581,
+     -0.106961
+    ],
+    [
+     52.349181,
+     -0.109361
+    ],
+    [
+     52.345594,
+     -0.116717
+    ],
+    [
+     52.345533,
+     -0.118358
+    ],
+    [
+     52.354831,
+     -0.131767
+    ]
+   ]
+  },
+  {
+   "name": "Coulport / Faslane",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGP611]",
+   "alt_ft": 2200,
+   "circle": [
+    56.058611,
+    -4.866389
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Dounreay",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGP813]",
+   "alt_ft": 2100,
+   "circle": [
+    58.576389,
+    -3.742778
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Devonport (nuclear)",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR002]",
+   "alt_ft": 2000,
+   "circle": [
+    50.388056,
+    -4.187222
+   ],
+   "radius_km": 1.852
+  },
+  {
+   "name": "Dungeness",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR063]",
+   "alt_ft": 2000,
+   "circle": [
+    50.913611,
+    0.954722
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Aldermaston (nuclear)",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR101]",
+   "alt_ft": 2400,
+   "circle": [
+    51.3675,
+    -1.146389
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "Burghfield (nuclear)",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR104]",
+   "alt_ft": 2400,
+   "circle": [
+    51.406667,
+    -1.023611
+   ],
+   "radius_km": 1.852
+  },
+  {
+   "name": "Hinkley Point",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR153]",
+   "alt_ft": 2000,
+   "circle": [
+    51.209167,
+    -3.130278
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Oldbury",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR154]",
+   "alt_ft": 2000,
+   "circle": [
+    51.647778,
+    -2.570833
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Berkeley",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR155]",
+   "alt_ft": 2000,
+   "circle": [
+    51.692778,
+    -2.493333
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Sizewell",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR217]",
+   "alt_ft": 2000,
+   "circle": [
+    52.213889,
+    1.618611
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Capenhurst",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR311]",
+   "alt_ft": 2200,
+   "circle": [
+    53.263889,
+    -2.952222
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Springfields",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR312]",
+   "alt_ft": 2100,
+   "circle": [
+    53.776111,
+    -2.804167
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Wylfa",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR322]",
+   "alt_ft": 2100,
+   "circle": [
+    53.416111,
+    -4.481111
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Sellafield",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR413]",
+   "alt_ft": 2000,
+   "circle": [
+    54.418056,
+    -3.495556
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Heysham",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR444]",
+   "alt_ft": 2000,
+   "circle": [
+    54.029722,
+    -2.914444
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Barrow in Furness (nuclear)",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR445]",
+   "alt_ft": 2000,
+   "circle": [
+    54.109722,
+    -3.236111
+   ],
+   "radius_km": 0.926
+  },
+  {
+   "name": "Hartlepool",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR446]",
+   "alt_ft": 2000,
+   "circle": [
+    54.635278,
+    -1.180278
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Hunterston",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR515]",
+   "alt_ft": 2000,
+   "circle": [
+    55.721389,
+    -4.893889
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Torness",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR516]",
+   "alt_ft": 2100,
+   "circle": [
+    55.968333,
+    -2.408611
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "Rosyth",
+   "class": "prohibited",
+   "kind": "nuclear",
+   "label": "nuclear installation (restricted airspace)",
+   "basis": "Nuclear installations: Restriction of Flying (Nuclear Installations) Regulations 2016 (SI 2016/1003), as published in UK AIP ENR 5.1 [EGR603]",
+   "alt_ft": 2000,
+   "circle": [
+    56.029722,
+    -3.450833
+   ],
+   "radius_km": 0.926
+  },
+  {
+   "name": "Sark",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR095]",
+   "alt_ft": 2374,
+   "circle": [
+    49.429444,
+    -2.3625
+   ],
+   "radius_km": 5.556
+  },
+  {
+   "name": "Highgrove House",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR105]",
+   "alt_ft": 2000,
+   "circle": [
+    51.622222,
+    -2.180556
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "Raymill House, Lacock",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR106]",
+   "alt_ft": 1600,
+   "circle": [
+    51.423056,
+    -2.112778
+   ],
+   "radius_km": 1.852
+  },
+  {
+   "name": "Windsor Castle",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR156]",
+   "alt_ft": 2500,
+   "circle": [
+    51.483889,
+    -0.603889
+   ],
+   "radius_km": 2.315
+  },
+  {
+   "name": "Windsor Great Park",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR161]",
+   "alt_ft": 2500,
+   "circle": [
+    51.443056,
+    -0.637222
+   ],
+   "radius_km": 1.204
+  },
+  {
+   "name": "SS Richard Montgomery",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR162]",
+   "alt_ft": 13200,
+   "circle": [
+    51.466111,
+    0.786667
+   ],
+   "radius_km": 0.926
+  },
+  {
+   "name": "Anmer Hall",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR220]",
+   "alt_ft": 2000,
+   "circle": [
+    52.834167,
+    0.579722
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "Balmoral",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR704]",
+   "alt_ft": 3500,
+   "circle": [
+    57.040833,
+    -3.230278
+   ],
+   "radius_km": 1.852,
+   "note": "Active 16 May-2 Jun and 10 Jul-31 Oct each year"
+  },
+  {
+   "name": "Birkhall",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR705]",
+   "alt_ft": 3500,
+   "circle": [
+    57.028889,
+    -3.074167
+   ],
+   "radius_km": 1.852
+  },
+  {
+   "name": "Hyde Park",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR157]",
+   "alt_ft": 1400,
+   "poly": [
+    [
+     51.536667,
+     -0.153056
+    ],
+    [
+     51.505556,
+     -0.113333
+    ],
+    [
+     51.505379,
+     -0.113076
+    ],
+    [
+     51.505184,
+     -0.112856
+    ],
+    [
+     51.504986,
+     -0.112644
+    ],
+    [
+     51.504785,
+     -0.11244
+    ],
+    [
+     51.504581,
+     -0.112245
+    ],
+    [
+     51.504373,
+     -0.112059
+    ],
+    [
+     51.504163,
+     -0.111881
+    ],
+    [
+     51.503949,
+     -0.111712
+    ],
+    [
+     51.503734,
+     -0.111551
+    ],
+    [
+     51.503515,
+     -0.1114
+    ],
+    [
+     51.503294,
+     -0.111259
+    ],
+    [
+     51.503071,
+     -0.111126
+    ],
+    [
+     51.502846,
+     -0.111003
+    ],
+    [
+     51.502619,
+     -0.110889
+    ],
+    [
+     51.50239,
+     -0.110784
+    ],
+    [
+     51.50216,
+     -0.110689
+    ],
+    [
+     51.501928,
+     -0.110604
+    ],
+    [
+     51.501695,
+     -0.110529
+    ],
+    [
+     51.501461,
+     -0.110463
+    ],
+    [
+     51.501225,
+     -0.110407
+    ],
+    [
+     51.500989,
+     -0.110361
+    ],
+    [
+     51.500753,
+     -0.110324
+    ],
+    [
+     51.500515,
+     -0.110298
+    ],
+    [
+     51.500278,
+     -0.110282
+    ],
+    [
+     51.488056,
+     -0.109444
+    ],
+    [
+     51.487742,
+     -0.109173
+    ],
+    [
+     51.487419,
+     -0.109168
+    ],
+    [
+     51.487096,
+     -0.109182
+    ],
+    [
+     51.486773,
+     -0.109214
+    ],
+    [
+     51.486452,
+     -0.109264
+    ],
+    [
+     51.486131,
+     -0.109333
+    ],
+    [
+     51.485813,
+     -0.109419
+    ],
+    [
+     51.485496,
+     -0.109524
+    ],
+    [
+     51.485182,
+     -0.109646
+    ],
+    [
+     51.484871,
+     -0.109786
+    ],
+    [
+     51.484563,
+     -0.109944
+    ],
+    [
+     51.484259,
+     -0.110119
+    ],
+    [
+     51.483958,
+     -0.110311
+    ],
+    [
+     51.483662,
+     -0.11052
+    ],
+    [
+     51.483371,
+     -0.110745
+    ],
+    [
+     51.483085,
+     -0.110987
+    ],
+    [
+     51.482805,
+     -0.111245
+    ],
+    [
+     51.48253,
+     -0.111519
+    ],
+    [
+     51.482262,
+     -0.111808
+    ],
+    [
+     51.482,
+     -0.112112
+    ],
+    [
+     51.481745,
+     -0.112431
+    ],
+    [
+     51.481497,
+     -0.112764
+    ],
+    [
+     51.481256,
+     -0.11311
+    ],
+    [
+     51.481024,
+     -0.113471
+    ],
+    [
+     51.476111,
+     -0.121944
+    ],
+    [
+     51.475412,
+     -0.122889
+    ],
+    [
+     51.47487,
+     -0.124065
+    ],
+    [
+     51.474403,
+     -0.125322
+    ],
+    [
+     51.474016,
+     -0.126648
+    ],
+    [
+     51.473713,
+     -0.128028
+    ],
+    [
+     51.473497,
+     -0.12945
+    ],
+    [
+     51.47337,
+     -0.130899
+    ],
+    [
+     51.473334,
+     -0.132362
+    ],
+    [
+     51.473388,
+     -0.133823
+    ],
+    [
+     51.473532,
+     -0.135268
+    ],
+    [
+     51.473764,
+     -0.136683
+    ],
+    [
+     51.474084,
+     -0.138054
+    ],
+    [
+     51.474486,
+     -0.139368
+    ],
+    [
+     51.474967,
+     -0.14061
+    ],
+    [
+     51.475523,
+     -0.14177
+    ],
+    [
+     51.476148,
+     -0.142835
+    ],
+    [
+     51.476836,
+     -0.143796
+    ],
+    [
+     51.47758,
+     -0.144642
+    ],
+    [
+     51.478372,
+     -0.145365
+    ],
+    [
+     51.479206,
+     -0.145958
+    ],
+    [
+     51.480071,
+     -0.146416
+    ],
+    [
+     51.480961,
+     -0.146733
+    ],
+    [
+     51.481866,
+     -0.146907
+    ],
+    [
+     51.482778,
+     -0.146935
+    ],
+    [
+     51.489167,
+     -0.146389
+    ],
+    [
+     51.494167,
+     -0.192222
+    ],
+    [
+     51.494183,
+     -0.193421
+    ],
+    [
+     51.494397,
+     -0.194556
+    ],
+    [
+     51.494667,
+     -0.195659
+    ],
+    [
+     51.494991,
+     -0.196724
+    ],
+    [
+     51.495368,
+     -0.197744
+    ],
+    [
+     51.495795,
+     -0.198712
+    ],
+    [
+     51.496269,
+     -0.199621
+    ],
+    [
+     51.496787,
+     -0.200466
+    ],
+    [
+     51.497345,
+     -0.201242
+    ],
+    [
+     51.497941,
+     -0.201943
+    ],
+    [
+     51.498569,
+     -0.202564
+    ],
+    [
+     51.499227,
+     -0.203103
+    ],
+    [
+     51.49991,
+     -0.203554
+    ],
+    [
+     51.500613,
+     -0.203916
+    ],
+    [
+     51.501332,
+     -0.204186
+    ],
+    [
+     51.502062,
+     -0.204362
+    ],
+    [
+     51.502798,
+     -0.204443
+    ],
+    [
+     51.503536,
+     -0.204428
+    ],
+    [
+     51.504271,
+     -0.204318
+    ],
+    [
+     51.504998,
+     -0.204114
+    ],
+    [
+     51.505713,
+     -0.203816
+    ],
+    [
+     51.50641,
+     -0.203427
+    ],
+    [
+     51.507086,
+     -0.202949
+    ],
+    [
+     51.507735,
+     -0.202385
+    ],
+    [
+     51.535556,
+     -0.177222
+    ],
+    [
+     51.536129,
+     -0.176472
+    ],
+    [
+     51.536709,
+     -0.175755
+    ],
+    [
+     51.537252,
+     -0.174965
+    ],
+    [
+     51.537753,
+     -0.174108
+    ],
+    [
+     51.538211,
+     -0.17319
+    ],
+    [
+     51.538621,
+     -0.172216
+    ],
+    [
+     51.538982,
+     -0.171193
+    ],
+    [
+     51.539291,
+     -0.170126
+    ],
+    [
+     51.539546,
+     -0.169023
+    ],
+    [
+     51.539746,
+     -0.167891
+    ],
+    [
+     51.539888,
+     -0.166737
+    ],
+    [
+     51.539973,
+     -0.165569
+    ],
+    [
+     51.54,
+     -0.164393
+    ],
+    [
+     51.539968,
+     -0.163218
+    ],
+    [
+     51.539878,
+     -0.16205
+    ],
+    [
+     51.539731,
+     -0.160898
+    ],
+    [
+     51.539526,
+     -0.159768
+    ],
+    [
+     51.539266,
+     -0.158668
+    ],
+    [
+     51.538953,
+     -0.157605
+    ],
+    [
+     51.538588,
+     -0.156586
+    ],
+    [
+     51.538173,
+     -0.155616
+    ],
+    [
+     51.537711,
+     -0.154703
+    ],
+    [
+     51.537206,
+     -0.153852
+    ],
+    [
+     51.53666,
+     -0.153069
+    ]
+   ]
+  },
+  {
+   "name": "City of London",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR158]",
+   "alt_ft": 1400,
+   "poly": [
+    [
+     51.523611,
+     -0.096389
+    ],
+    [
+     51.521667,
+     -0.0775
+    ],
+    [
+     51.511944,
+     -0.071667
+    ],
+    [
+     51.504444,
+     -0.075833
+    ],
+    [
+     51.510278,
+     -0.117778
+    ],
+    [
+     51.518889,
+     -0.114722
+    ],
+    [
+     51.523611,
+     -0.096389
+    ]
+   ]
+  },
+  {
+   "name": "Isle of Dogs",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR159]",
+   "alt_ft": 1400,
+   "poly": [
+    [
+     51.509722,
+     -0.006944
+    ],
+    [
+     51.498333,
+     -0.009167
+    ],
+    [
+     51.493889,
+     -0.006111
+    ],
+    [
+     51.493287,
+     -0.005875
+    ],
+    [
+     51.492687,
+     -0.00567
+    ],
+    [
+     51.492076,
+     -0.005583
+    ],
+    [
+     51.491463,
+     -0.005618
+    ],
+    [
+     51.490857,
+     -0.005773
+    ],
+    [
+     51.490267,
+     -0.006046
+    ],
+    [
+     51.489703,
+     -0.006433
+    ],
+    [
+     51.489173,
+     -0.006927
+    ],
+    [
+     51.488684,
+     -0.007523
+    ],
+    [
+     51.488244,
+     -0.00821
+    ],
+    [
+     51.48786,
+     -0.008978
+    ],
+    [
+     51.487538,
+     -0.009816
+    ],
+    [
+     51.487282,
+     -0.010712
+    ],
+    [
+     51.487096,
+     -0.011651
+    ],
+    [
+     51.486983,
+     -0.012619
+    ],
+    [
+     51.486944,
+     -0.013602
+    ],
+    [
+     51.486981,
+     -0.014586
+    ],
+    [
+     51.487093,
+     -0.015555
+    ],
+    [
+     51.487278,
+     -0.016494
+    ],
+    [
+     51.487533,
+     -0.01739
+    ],
+    [
+     51.487854,
+     -0.01823
+    ],
+    [
+     51.488237,
+     -0.018999
+    ],
+    [
+     51.488676,
+     -0.019688
+    ],
+    [
+     51.489164,
+     -0.020285
+    ],
+    [
+     51.5,
+     -0.031667
+    ],
+    [
+     51.501021,
+     -0.032711
+    ],
+    [
+     51.502146,
+     -0.033439
+    ],
+    [
+     51.503321,
+     -0.033922
+    ],
+    [
+     51.504525,
+     -0.034151
+    ],
+    [
+     51.505738,
+     -0.034124
+    ],
+    [
+     51.506937,
+     -0.033839
+    ],
+    [
+     51.508103,
+     -0.033302
+    ],
+    [
+     51.509215,
+     -0.032522
+    ],
+    [
+     51.510252,
+     -0.031514
+    ],
+    [
+     51.511198,
+     -0.030295
+    ],
+    [
+     51.512035,
+     -0.028885
+    ],
+    [
+     51.51275,
+     -0.02731
+    ],
+    [
+     51.513328,
+     -0.025598
+    ],
+    [
+     51.513761,
+     -0.023778
+    ],
+    [
+     51.51404,
+     -0.021882
+    ],
+    [
+     51.514161,
+     -0.019943
+    ],
+    [
+     51.514122,
+     -0.017996
+    ],
+    [
+     51.513923,
+     -0.016074
+    ],
+    [
+     51.513568,
+     -0.014211
+    ],
+    [
+     51.513063,
+     -0.01244
+    ],
+    [
+     51.512417,
+     -0.010791
+    ],
+    [
+     51.511641,
+     -0.009293
+    ],
+    [
+     51.510749,
+     -0.007974
+    ],
+    [
+     51.509756,
+     -0.006855
+    ]
+   ]
+  },
+  {
+   "name": "Sandringham House",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Restricted area",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR219]",
+   "alt_ft": 2000,
+   "poly": [
+    [
+     52.802778,
+     0.483611
+    ],
+    [
+     52.802501,
+     0.478221
+    ],
+    [
+     52.80268,
+     0.472817
+    ],
+    [
+     52.803284,
+     0.467498
+    ],
+    [
+     52.804302,
+     0.462354
+    ],
+    [
+     52.805717,
+     0.457475
+    ],
+    [
+     52.807504,
+     0.452943
+    ],
+    [
+     52.809634,
+     0.448836
+    ],
+    [
+     52.812069,
+     0.445224
+    ],
+    [
+     52.814769,
+     0.442169
+    ],
+    [
+     52.817686,
+     0.439723
+    ],
+    [
+     52.820771,
+     0.437929
+    ],
+    [
+     52.823971,
+     0.436816
+    ],
+    [
+     52.827232,
+     0.436404
+    ],
+    [
+     52.830497,
+     0.4367
+    ],
+    [
+     52.833711,
+     0.437699
+    ],
+    [
+     52.836819,
+     0.439384
+    ],
+    [
+     52.839767,
+     0.441726
+    ],
+    [
+     52.842506,
+     0.444684
+    ],
+    [
+     52.844987,
+     0.448209
+    ],
+    [
+     52.84717,
+     0.452239
+    ],
+    [
+     52.849015,
+     0.456707
+    ],
+    [
+     52.850493,
+     0.461535
+    ],
+    [
+     52.851577,
+     0.466641
+    ],
+    [
+     52.85225,
+     0.471938
+    ],
+    [
+     52.858889,
+     0.573333
+    ],
+    [
+     52.858153,
+     0.568057
+    ],
+    [
+     52.857028,
+     0.562974
+    ],
+    [
+     52.855511,
+     0.558178
+    ],
+    [
+     52.85363,
+     0.553751
+    ],
+    [
+     52.851416,
+     0.549768
+    ],
+    [
+     52.848906,
+     0.546297
+    ],
+    [
+     52.846144,
+     0.543398
+    ],
+    [
+     52.843177,
+     0.541121
+    ],
+    [
+     52.840056,
+     0.539505
+    ],
+    [
+     52.836835,
+     0.538576
+    ],
+    [
+     52.833567,
+     0.538352
+    ],
+    [
+     52.83031,
+     0.538835
+    ],
+    [
+     52.827119,
+     0.540018
+    ],
+    [
+     52.824049,
+     0.541881
+    ],
+    [
+     52.821151,
+     0.54439
+    ],
+    [
+     52.818477,
+     0.547505
+    ],
+    [
+     52.81607,
+     0.55117
+    ],
+    [
+     52.813974,
+     0.555324
+    ],
+    [
+     52.812223,
+     0.559896
+    ],
+    [
+     52.810847,
+     0.564807
+    ],
+    [
+     52.80987,
+     0.569973
+    ],
+    [
+     52.809309,
+     0.575306
+    ],
+    [
+     52.809174,
+     0.580714
+    ],
+    [
+     52.809466,
+     0.586106
+    ],
+    [
+     52.802778,
+     0.483611
+    ]
+   ]
+  },
+  {
+   "name": "HMP CHANNINGS WOOD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U130]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     50.519444,
+     -3.655
+    ],
+    [
+     50.518889,
+     -3.645
+    ],
+    [
+     50.515,
+     -3.643333
+    ],
+    [
+     50.508056,
+     -3.646389
+    ],
+    [
+     50.506111,
+     -3.655556
+    ],
+    [
+     50.509444,
+     -3.662778
+    ],
+    [
+     50.513611,
+     -3.663056
+    ],
+    [
+     50.519444,
+     -3.655
+    ]
+   ]
+  },
+  {
+   "name": "HMP DARTMOOR",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U131]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 1900,
+   "poly": [
+    [
+     50.555,
+     -3.996111
+    ],
+    [
+     50.553333,
+     -3.990278
+    ],
+    [
+     50.549722,
+     -3.988056
+    ],
+    [
+     50.546389,
+     -3.99
+    ],
+    [
+     50.543056,
+     -3.999167
+    ],
+    [
+     50.552222,
+     -4.005556
+    ],
+    [
+     50.555,
+     -3.996111
+    ]
+   ]
+  },
+  {
+   "name": "HMP EXETER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U132]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     50.733333,
+     -3.5325
+    ],
+    [
+     50.7325,
+     -3.526667
+    ],
+    [
+     50.725556,
+     -3.523333
+    ],
+    [
+     50.723611,
+     -3.538333
+    ],
+    [
+     50.731111,
+     -3.541667
+    ],
+    [
+     50.733333,
+     -3.5325
+    ]
+   ]
+  },
+  {
+   "name": "HMP GUYS MARSH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U133]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     50.990278,
+     -2.223611
+    ],
+    [
+     50.991111,
+     -2.214444
+    ],
+    [
+     50.983611,
+     -2.208056
+    ],
+    [
+     50.978333,
+     -2.221111
+    ],
+    [
+     50.985833,
+     -2.23
+    ],
+    [
+     50.990278,
+     -2.223611
+    ]
+   ]
+  },
+  {
+   "name": "HMP ISLE OF WIGHT",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U134]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     50.718889,
+     -1.32
+    ],
+    [
+     50.721667,
+     -1.302778
+    ],
+    [
+     50.7075,
+     -1.297222
+    ],
+    [
+     50.704444,
+     -1.311111
+    ],
+    [
+     50.718889,
+     -1.32
+    ]
+   ]
+  },
+  {
+   "name": "HMP LEWES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U135]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     50.878611,
+     -0.005
+    ],
+    [
+     50.875278,
+     0.001667
+    ],
+    [
+     50.871111,
+     0.001944
+    ],
+    [
+     50.866667,
+     -0.008889
+    ],
+    [
+     50.874444,
+     -0.016111
+    ],
+    [
+     50.878611,
+     -0.005
+    ]
+   ]
+  },
+  {
+   "name": "HMP PORTLAND",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U136]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     50.556389,
+     -2.430278
+    ],
+    [
+     50.556944,
+     -2.420278
+    ],
+    [
+     50.551667,
+     -2.415278
+    ],
+    [
+     50.546389,
+     -2.412222
+    ],
+    [
+     50.545278,
+     -2.424722
+    ],
+    [
+     50.551667,
+     -2.432222
+    ],
+    [
+     50.556389,
+     -2.430278
+    ]
+   ]
+  },
+  {
+   "name": "HMP THE VERNE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR1U137]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 900,
+   "poly": [
+    [
+     50.566389,
+     -2.4375
+    ],
+    [
+     50.566111,
+     -2.429444
+    ],
+    [
+     50.559167,
+     -2.424444
+    ],
+    [
+     50.555556,
+     -2.436667
+    ],
+    [
+     50.557222,
+     -2.438056
+    ],
+    [
+     50.5575,
+     -2.444444
+    ],
+    [
+     50.564167,
+     -2.443333
+    ],
+    [
+     50.566389,
+     -2.4375
+    ]
+   ]
+  },
+  {
+   "name": "HMP BEDFORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U035]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.144444,
+     -0.47
+    ],
+    [
+     52.143333,
+     -0.465556
+    ],
+    [
+     52.139444,
+     -0.461944
+    ],
+    [
+     52.134444,
+     -0.466111
+    ],
+    [
+     52.135278,
+     -0.473333
+    ],
+    [
+     52.1375,
+     -0.477778
+    ],
+    [
+     52.143056,
+     -0.475556
+    ],
+    [
+     52.144444,
+     -0.47
+    ]
+   ]
+  },
+  {
+   "name": "HMP BIRMINGHAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U036]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 900,
+   "poly": [
+    [
+     52.498333,
+     -1.940556
+    ],
+    [
+     52.497778,
+     -1.931389
+    ],
+    [
+     52.495556,
+     -1.929722
+    ],
+    [
+     52.490278,
+     -1.929722
+    ],
+    [
+     52.488333,
+     -1.932778
+    ],
+    [
+     52.488056,
+     -1.9425
+    ],
+    [
+     52.495556,
+     -1.946667
+    ],
+    [
+     52.498333,
+     -1.940556
+    ]
+   ]
+  },
+  {
+   "name": "HMP BURE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U037]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.763611,
+     1.341389
+    ],
+    [
+     52.764444,
+     1.347778
+    ],
+    [
+     52.760278,
+     1.356389
+    ],
+    [
+     52.753056,
+     1.346944
+    ],
+    [
+     52.758889,
+     1.335278
+    ],
+    [
+     52.763611,
+     1.341389
+    ]
+   ]
+  },
+  {
+   "name": "HMP DOVEGATE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U038]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.876111,
+     -1.785556
+    ],
+    [
+     52.876111,
+     -1.7775
+    ],
+    [
+     52.870833,
+     -1.768889
+    ],
+    [
+     52.863889,
+     -1.780278
+    ],
+    [
+     52.87,
+     -1.79
+    ],
+    [
+     52.873889,
+     -1.789722
+    ],
+    [
+     52.876111,
+     -1.785556
+    ]
+   ]
+  },
+  {
+   "name": "HMP DRAKE HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U039]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.885833,
+     -2.241389
+    ],
+    [
+     52.880278,
+     -2.231111
+    ],
+    [
+     52.873333,
+     -2.239167
+    ],
+    [
+     52.873056,
+     -2.245833
+    ],
+    [
+     52.878056,
+     -2.250833
+    ],
+    [
+     52.881944,
+     -2.248056
+    ],
+    [
+     52.885833,
+     -2.241389
+    ]
+   ]
+  },
+  {
+   "name": "HMP FEATHERSTONE/BRINSFORD/OAKWOOD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U040]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.654722,
+     -2.121667
+    ],
+    [
+     52.656389,
+     -2.106389
+    ],
+    [
+     52.646944,
+     -2.098611
+    ],
+    [
+     52.639167,
+     -2.1025
+    ],
+    [
+     52.640556,
+     -2.116111
+    ],
+    [
+     52.644722,
+     -2.121111
+    ],
+    [
+     52.654722,
+     -2.121667
+    ]
+   ]
+  },
+  {
+   "name": "HMP FIVE WELLS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U041]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.291111,
+     -0.691111
+    ],
+    [
+     52.290833,
+     -0.683611
+    ],
+    [
+     52.286111,
+     -0.681667
+    ],
+    [
+     52.279444,
+     -0.683889
+    ],
+    [
+     52.279167,
+     -0.694722
+    ],
+    [
+     52.282778,
+     -0.701389
+    ],
+    [
+     52.287222,
+     -0.701389
+    ],
+    [
+     52.291111,
+     -0.691111
+    ]
+   ]
+  },
+  {
+   "name": "HMP FOSSE WAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U042]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.591944,
+     -1.149722
+    ],
+    [
+     52.591111,
+     -1.136667
+    ],
+    [
+     52.578611,
+     -1.1375
+    ],
+    [
+     52.5775,
+     -1.148056
+    ],
+    [
+     52.579444,
+     -1.156667
+    ],
+    [
+     52.591944,
+     -1.149722
+    ]
+   ]
+  },
+  {
+   "name": "HMP FOSTON HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U043]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.886944,
+     -1.733333
+    ],
+    [
+     52.887222,
+     -1.723611
+    ],
+    [
+     52.884167,
+     -1.715556
+    ],
+    [
+     52.876944,
+     -1.720556
+    ],
+    [
+     52.876944,
+     -1.7325
+    ],
+    [
+     52.886944,
+     -1.733333
+    ]
+   ]
+  },
+  {
+   "name": "HMP GARTREE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U044]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.501111,
+     -0.964444
+    ],
+    [
+     52.499722,
+     -0.953889
+    ],
+    [
+     52.491944,
+     -0.952222
+    ],
+    [
+     52.489167,
+     -0.966944
+    ],
+    [
+     52.495833,
+     -0.970556
+    ],
+    [
+     52.501111,
+     -0.964444
+    ]
+   ]
+  },
+  {
+   "name": "HMP HEWELL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U045]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 900,
+   "poly": [
+    [
+     52.330833,
+     -1.990556
+    ],
+    [
+     52.326389,
+     -1.975833
+    ],
+    [
+     52.319722,
+     -1.981389
+    ],
+    [
+     52.319722,
+     -1.988611
+    ],
+    [
+     52.321389,
+     -1.993333
+    ],
+    [
+     52.325,
+     -1.996667
+    ],
+    [
+     52.330833,
+     -1.990556
+    ]
+   ]
+  },
+  {
+   "name": "HMP HIGHPOINT",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U046]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.146389,
+     0.509444
+    ],
+    [
+     52.145833,
+     0.519167
+    ],
+    [
+     52.133611,
+     0.526111
+    ],
+    [
+     52.130278,
+     0.505278
+    ],
+    [
+     52.139444,
+     0.500833
+    ],
+    [
+     52.146389,
+     0.509444
+    ]
+   ]
+  },
+  {
+   "name": "HMP LEICESTER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U047]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.631944,
+     -1.132222
+    ],
+    [
+     52.628889,
+     -1.123333
+    ],
+    [
+     52.624444,
+     -1.126389
+    ],
+    [
+     52.6225,
+     -1.131389
+    ],
+    [
+     52.625,
+     -1.138333
+    ],
+    [
+     52.630278,
+     -1.139167
+    ],
+    [
+     52.631944,
+     -1.132222
+    ]
+   ]
+  },
+  {
+   "name": "HMP LITTLEHEY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U048]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.285278,
+     -0.321111
+    ],
+    [
+     52.285,
+     -0.306667
+    ],
+    [
+     52.282222,
+     -0.303056
+    ],
+    [
+     52.276944,
+     -0.304722
+    ],
+    [
+     52.274167,
+     -0.312778
+    ],
+    [
+     52.275833,
+     -0.322222
+    ],
+    [
+     52.28,
+     -0.323333
+    ],
+    [
+     52.285278,
+     -0.321111
+    ]
+   ]
+  },
+  {
+   "name": "HMP LONG LARTIN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U049]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.113611,
+     -1.859167
+    ],
+    [
+     52.111944,
+     -1.842778
+    ],
+    [
+     52.1025,
+     -1.848611
+    ],
+    [
+     52.104444,
+     -1.866111
+    ],
+    [
+     52.113611,
+     -1.859167
+    ]
+   ]
+  },
+  {
+   "name": "HMP NORWICH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U050]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.643333,
+     1.314444
+    ],
+    [
+     52.643889,
+     1.320833
+    ],
+    [
+     52.636389,
+     1.327222
+    ],
+    [
+     52.633611,
+     1.327222
+    ],
+    [
+     52.63,
+     1.315278
+    ],
+    [
+     52.631389,
+     1.3125
+    ],
+    [
+     52.639167,
+     1.306389
+    ],
+    [
+     52.643333,
+     1.314444
+    ]
+   ]
+  },
+  {
+   "name": "HMP NOTTINGHAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U051]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.989167,
+     -1.159722
+    ],
+    [
+     52.990278,
+     -1.149167
+    ],
+    [
+     52.982222,
+     -1.146667
+    ],
+    [
+     52.980556,
+     -1.151667
+    ],
+    [
+     52.98,
+     -1.161667
+    ],
+    [
+     52.984722,
+     -1.163333
+    ],
+    [
+     52.9875,
+     -1.162778
+    ],
+    [
+     52.989167,
+     -1.159722
+    ]
+   ]
+  },
+  {
+   "name": "HMP PETERBOROUGH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U052]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.591389,
+     -0.264722
+    ],
+    [
+     52.593056,
+     -0.256667
+    ],
+    [
+     52.583056,
+     -0.250278
+    ],
+    [
+     52.580833,
+     -0.259444
+    ],
+    [
+     52.582778,
+     -0.266389
+    ],
+    [
+     52.585,
+     -0.267222
+    ],
+    [
+     52.588889,
+     -0.267222
+    ],
+    [
+     52.591389,
+     -0.264722
+    ]
+   ]
+  },
+  {
+   "name": "HMP RYE HILL/OLNEY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U053]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.334444,
+     -1.249167
+    ],
+    [
+     52.334722,
+     -1.243056
+    ],
+    [
+     52.332222,
+     -1.236944
+    ],
+    [
+     52.33,
+     -1.235556
+    ],
+    [
+     52.326944,
+     -1.235
+    ],
+    [
+     52.323611,
+     -1.239167
+    ],
+    [
+     52.321944,
+     -1.248611
+    ],
+    [
+     52.322222,
+     -1.259722
+    ],
+    [
+     52.333333,
+     -1.253611
+    ],
+    [
+     52.334444,
+     -1.249167
+    ]
+   ]
+  },
+  {
+   "name": "HMP STAFFORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U054]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.815,
+     -2.126111
+    ],
+    [
+     52.817222,
+     -2.111944
+    ],
+    [
+     52.811389,
+     -2.109722
+    ],
+    [
+     52.807778,
+     -2.110833
+    ],
+    [
+     52.805556,
+     -2.122222
+    ],
+    [
+     52.815,
+     -2.126111
+    ]
+   ]
+  },
+  {
+   "name": "HMP STOCKEN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U055]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.753333,
+     -0.580278
+    ],
+    [
+     52.753611,
+     -0.570556
+    ],
+    [
+     52.747222,
+     -0.5675
+    ],
+    [
+     52.742778,
+     -0.575
+    ],
+    [
+     52.741389,
+     -0.581667
+    ],
+    [
+     52.744444,
+     -0.587222
+    ],
+    [
+     52.746944,
+     -0.588333
+    ],
+    [
+     52.751111,
+     -0.587778
+    ],
+    [
+     52.753333,
+     -0.580278
+    ]
+   ]
+  },
+  {
+   "name": "HMP STOKE HEATH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U056]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     52.875278,
+     -2.527222
+    ],
+    [
+     52.873333,
+     -2.521944
+    ],
+    [
+     52.875278,
+     -2.518611
+    ],
+    [
+     52.871111,
+     -2.5125
+    ],
+    [
+     52.867222,
+     -2.511944
+    ],
+    [
+     52.865833,
+     -2.514444
+    ],
+    [
+     52.861667,
+     -2.516389
+    ],
+    [
+     52.864444,
+     -2.5325
+    ],
+    [
+     52.875278,
+     -2.527222
+    ]
+   ]
+  },
+  {
+   "name": "HMP SWINFEN HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U057]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 800,
+   "poly": [
+    [
+     52.66,
+     -1.804444
+    ],
+    [
+     52.655833,
+     -1.794722
+    ],
+    [
+     52.652222,
+     -1.794722
+    ],
+    [
+     52.646944,
+     -1.802778
+    ],
+    [
+     52.649167,
+     -1.809444
+    ],
+    [
+     52.652778,
+     -1.816111
+    ],
+    [
+     52.66,
+     -1.804444
+    ]
+   ]
+  },
+  {
+   "name": "HMP WARREN HILL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U058]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.065556,
+     1.46
+    ],
+    [
+     52.059722,
+     1.47
+    ],
+    [
+     52.055278,
+     1.469167
+    ],
+    [
+     52.051944,
+     1.4575
+    ],
+    [
+     52.059167,
+     1.449722
+    ],
+    [
+     52.065556,
+     1.46
+    ]
+   ]
+  },
+  {
+   "name": "HMP WAYLAND",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U059]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     52.560278,
+     0.850833
+    ],
+    [
+     52.560278,
+     0.866111
+    ],
+    [
+     52.548889,
+     0.866111
+    ],
+    [
+     52.548889,
+     0.8525
+    ],
+    [
+     52.553611,
+     0.848889
+    ],
+    [
+     52.560278,
+     0.850833
+    ]
+   ]
+  },
+  {
+   "name": "HMP WHATTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U060]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.9525,
+     -0.921944
+    ],
+    [
+     52.952222,
+     -0.911667
+    ],
+    [
+     52.952778,
+     -0.907778
+    ],
+    [
+     52.949722,
+     -0.901667
+    ],
+    [
+     52.942778,
+     -0.900556
+    ],
+    [
+     52.943889,
+     -0.923056
+    ],
+    [
+     52.9525,
+     -0.921944
+    ]
+   ]
+  },
+  {
+   "name": "HMP WHITEMOOR",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U061]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     52.579167,
+     0.069722
+    ],
+    [
+     52.582222,
+     0.085833
+    ],
+    [
+     52.5725,
+     0.090833
+    ],
+    [
+     52.569444,
+     0.075
+    ],
+    [
+     52.579167,
+     0.069722
+    ]
+   ]
+  },
+  {
+   "name": "HMP WOODHILL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR2U062]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 900,
+   "poly": [
+    [
+     52.020278,
+     -0.807222
+    ],
+    [
+     52.010556,
+     -0.797778
+    ],
+    [
+     52.005833,
+     -0.810556
+    ],
+    [
+     52.015556,
+     -0.820278
+    ],
+    [
+     52.020278,
+     -0.807222
+    ]
+   ]
+  },
+  {
+   "name": "HMP ALTCOURSE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U025]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.467222,
+     -2.938056
+    ],
+    [
+     53.466944,
+     -2.933333
+    ],
+    [
+     53.464167,
+     -2.926944
+    ],
+    [
+     53.459444,
+     -2.925556
+    ],
+    [
+     53.456944,
+     -2.929722
+    ],
+    [
+     53.457222,
+     -2.943333
+    ],
+    [
+     53.461111,
+     -2.944722
+    ],
+    [
+     53.464722,
+     -2.944722
+    ],
+    [
+     53.467222,
+     -2.938056
+    ]
+   ]
+  },
+  {
+   "name": "HMP ASKHAM GRANGE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U026]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.930833,
+     -1.19
+    ],
+    [
+     53.931111,
+     -1.178056
+    ],
+    [
+     53.926944,
+     -1.175278
+    ],
+    [
+     53.922222,
+     -1.179444
+    ],
+    [
+     53.921111,
+     -1.184722
+    ],
+    [
+     53.922222,
+     -1.189722
+    ],
+    [
+     53.9275,
+     -1.193611
+    ],
+    [
+     53.930833,
+     -1.19
+    ]
+   ]
+  },
+  {
+   "name": "HMP BERWYN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U027]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.0425,
+     -2.9275
+    ],
+    [
+     53.036111,
+     -2.914722
+    ],
+    [
+     53.026944,
+     -2.926944
+    ],
+    [
+     53.033056,
+     -2.940278
+    ],
+    [
+     53.0425,
+     -2.9275
+    ]
+   ]
+  },
+  {
+   "name": "HMP BUCKLEY HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U028]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 1000,
+   "poly": [
+    [
+     53.640278,
+     -2.154444
+    ],
+    [
+     53.640556,
+     -2.139722
+    ],
+    [
+     53.634722,
+     -2.137222
+    ],
+    [
+     53.631667,
+     -2.137778
+    ],
+    [
+     53.628889,
+     -2.144722
+    ],
+    [
+     53.632778,
+     -2.1525
+    ],
+    [
+     53.640278,
+     -2.154444
+    ]
+   ]
+  },
+  {
+   "name": "HMP DONCASTER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U029]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.531667,
+     -1.144444
+    ],
+    [
+     53.525,
+     -1.135278
+    ],
+    [
+     53.517778,
+     -1.145278
+    ],
+    [
+     53.523889,
+     -1.157778
+    ],
+    [
+     53.531667,
+     -1.144444
+    ]
+   ]
+  },
+  {
+   "name": "HMP FOREST BANK",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U030]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.520278,
+     -2.303056
+    ],
+    [
+     53.517222,
+     -2.292222
+    ],
+    [
+     53.513056,
+     -2.291667
+    ],
+    [
+     53.508056,
+     -2.302222
+    ],
+    [
+     53.515556,
+     -2.313056
+    ],
+    [
+     53.520278,
+     -2.303056
+    ]
+   ]
+  },
+  {
+   "name": "HMP FULL SUTTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U031]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.989722,
+     -0.876111
+    ],
+    [
+     53.988889,
+     -0.859444
+    ],
+    [
+     53.978333,
+     -0.860556
+    ],
+    [
+     53.979167,
+     -0.8775
+    ],
+    [
+     53.989722,
+     -0.876111
+    ]
+   ]
+  },
+  {
+   "name": "HMP GARTH/WYMOTT",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U032]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.685556,
+     -2.767778
+    ],
+    [
+     53.685556,
+     -2.748611
+    ],
+    [
+     53.684167,
+     -2.741111
+    ],
+    [
+     53.673056,
+     -2.74
+    ],
+    [
+     53.672778,
+     -2.758056
+    ],
+    [
+     53.675833,
+     -2.7675
+    ],
+    [
+     53.685556,
+     -2.767778
+    ]
+   ]
+  },
+  {
+   "name": "HMP HINDLEY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U033]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.524167,
+     -2.569444
+    ],
+    [
+     53.515833,
+     -2.565556
+    ],
+    [
+     53.513333,
+     -2.583056
+    ],
+    [
+     53.521944,
+     -2.586111
+    ],
+    [
+     53.524167,
+     -2.569444
+    ]
+   ]
+  },
+  {
+   "name": "HMP HULL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U034]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.755,
+     -0.304167
+    ],
+    [
+     53.755,
+     -0.285556
+    ],
+    [
+     53.749444,
+     -0.285833
+    ],
+    [
+     53.744167,
+     -0.292222
+    ],
+    [
+     53.744167,
+     -0.304722
+    ],
+    [
+     53.755,
+     -0.304167
+    ]
+   ]
+  },
+  {
+   "name": "HMP HUMBER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U035]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.775833,
+     -0.638333
+    ],
+    [
+     53.774167,
+     -0.631389
+    ],
+    [
+     53.768056,
+     -0.624167
+    ],
+    [
+     53.763611,
+     -0.633056
+    ],
+    [
+     53.763889,
+     -0.646111
+    ],
+    [
+     53.771389,
+     -0.651111
+    ],
+    [
+     53.775833,
+     -0.638333
+    ]
+   ]
+  },
+  {
+   "name": "HMP LEEDS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U036]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     53.801389,
+     -1.577222
+    ],
+    [
+     53.799444,
+     -1.569444
+    ],
+    [
+     53.7925,
+     -1.568611
+    ],
+    [
+     53.790833,
+     -1.577222
+    ],
+    [
+     53.794167,
+     -1.585833
+    ],
+    [
+     53.800278,
+     -1.583611
+    ],
+    [
+     53.801389,
+     -1.577222
+    ]
+   ]
+  },
+  {
+   "name": "HMP LINCOLN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U037]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.240556,
+     -0.520833
+    ],
+    [
+     53.239444,
+     -0.510556
+    ],
+    [
+     53.233333,
+     -0.508889
+    ],
+    [
+     53.230556,
+     -0.512778
+    ],
+    [
+     53.231389,
+     -0.522778
+    ],
+    [
+     53.233611,
+     -0.525556
+    ],
+    [
+     53.2375,
+     -0.525556
+    ],
+    [
+     53.240556,
+     -0.520833
+    ]
+   ]
+  },
+  {
+   "name": "HMP LINDHOLME/MOORLAND",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U038]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.553611,
+     -0.980556
+    ],
+    [
+     53.553056,
+     -0.958889
+    ],
+    [
+     53.548333,
+     -0.953611
+    ],
+    [
+     53.537222,
+     -0.959167
+    ],
+    [
+     53.538611,
+     -0.981389
+    ],
+    [
+     53.553611,
+     -0.980556
+    ]
+   ]
+  },
+  {
+   "name": "HMP Liverpool",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U039]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.461111,
+     -2.98
+    ],
+    [
+     53.463889,
+     -2.964722
+    ],
+    [
+     53.461667,
+     -2.961389
+    ],
+    [
+     53.455278,
+     -2.958611
+    ],
+    [
+     53.451667,
+     -2.976111
+    ],
+    [
+     53.461111,
+     -2.98
+    ]
+   ]
+  },
+  {
+   "name": "HMP LOWDHAM GRANGE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U040]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     53.020833,
+     -1.038611
+    ],
+    [
+     53.019444,
+     -1.032222
+    ],
+    [
+     53.015278,
+     -1.030278
+    ],
+    [
+     53.010833,
+     -1.034167
+    ],
+    [
+     53.009722,
+     -1.042778
+    ],
+    [
+     53.014444,
+     -1.049444
+    ],
+    [
+     53.018889,
+     -1.046389
+    ],
+    [
+     53.020833,
+     -1.038611
+    ]
+   ]
+  },
+  {
+   "name": "HMP MANCHESTER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U041]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.5,
+     -2.2525
+    ],
+    [
+     53.499167,
+     -2.246111
+    ],
+    [
+     53.495278,
+     -2.237222
+    ],
+    [
+     53.491389,
+     -2.236944
+    ],
+    [
+     53.488611,
+     -2.243056
+    ],
+    [
+     53.487778,
+     -2.246667
+    ],
+    [
+     53.488889,
+     -2.251944
+    ],
+    [
+     53.493611,
+     -2.255556
+    ],
+    [
+     53.5,
+     -2.2525
+    ]
+   ]
+  },
+  {
+   "name": "HMP MORTON HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U042]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.173889,
+     -0.691111
+    ],
+    [
+     53.1725,
+     -0.678611
+    ],
+    [
+     53.162778,
+     -0.676111
+    ],
+    [
+     53.160556,
+     -0.681667
+    ],
+    [
+     53.161667,
+     -0.693056
+    ],
+    [
+     53.168889,
+     -0.695556
+    ],
+    [
+     53.173889,
+     -0.691111
+    ]
+   ]
+  },
+  {
+   "name": "HMP NEW HALL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U043]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 900,
+   "poly": [
+    [
+     53.640556,
+     -1.616667
+    ],
+    [
+     53.640556,
+     -1.605556
+    ],
+    [
+     53.636389,
+     -1.603611
+    ],
+    [
+     53.631389,
+     -1.605
+    ],
+    [
+     53.631111,
+     -1.611111
+    ],
+    [
+     53.633333,
+     -1.621111
+    ],
+    [
+     53.638333,
+     -1.621944
+    ],
+    [
+     53.640556,
+     -1.616667
+    ]
+   ]
+  },
+  {
+   "name": "HMP PRESTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U044]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.768333,
+     -2.684722
+    ],
+    [
+     53.760278,
+     -2.678611
+    ],
+    [
+     53.756944,
+     -2.69
+    ],
+    [
+     53.760556,
+     -2.696944
+    ],
+    [
+     53.765278,
+     -2.694167
+    ],
+    [
+     53.768333,
+     -2.684722
+    ]
+   ]
+  },
+  {
+   "name": "HMP RANBY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U045]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.328611,
+     -0.996111
+    ],
+    [
+     53.322778,
+     -0.988889
+    ],
+    [
+     53.316111,
+     -0.990278
+    ],
+    [
+     53.3175,
+     -1.009722
+    ],
+    [
+     53.323889,
+     -1.009444
+    ],
+    [
+     53.328611,
+     -0.996111
+    ]
+   ]
+  },
+  {
+   "name": "HMP RISLEY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U046]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.443889,
+     -2.526389
+    ],
+    [
+     53.443056,
+     -2.519167
+    ],
+    [
+     53.44,
+     -2.516389
+    ],
+    [
+     53.433889,
+     -2.513889
+    ],
+    [
+     53.432778,
+     -2.534444
+    ],
+    [
+     53.440278,
+     -2.531667
+    ],
+    [
+     53.443889,
+     -2.526389
+    ]
+   ]
+  },
+  {
+   "name": "HMP STYAL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U047]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     53.345278,
+     -2.236667
+    ],
+    [
+     53.341944,
+     -2.228333
+    ],
+    [
+     53.336111,
+     -2.2325
+    ],
+    [
+     53.334722,
+     -2.245
+    ],
+    [
+     53.338611,
+     -2.25
+    ],
+    [
+     53.343889,
+     -2.244722
+    ],
+    [
+     53.345278,
+     -2.236667
+    ]
+   ]
+  },
+  {
+   "name": "HMP WAKEFIELD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U048]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.686667,
+     -1.518056
+    ],
+    [
+     53.688333,
+     -1.5075
+    ],
+    [
+     53.680833,
+     -1.496389
+    ],
+    [
+     53.676389,
+     -1.511667
+    ],
+    [
+     53.681667,
+     -1.517778
+    ],
+    [
+     53.686667,
+     -1.518056
+    ]
+   ]
+  },
+  {
+   "name": "HMP WEALSTUN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U049]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     53.922222,
+     -1.3325
+    ],
+    [
+     53.920833,
+     -1.321389
+    ],
+    [
+     53.915556,
+     -1.319167
+    ],
+    [
+     53.908889,
+     -1.325556
+    ],
+    [
+     53.908889,
+     -1.331944
+    ],
+    [
+     53.911944,
+     -1.339167
+    ],
+    [
+     53.915,
+     -1.338333
+    ],
+    [
+     53.918333,
+     -1.336389
+    ],
+    [
+     53.922222,
+     -1.3325
+    ]
+   ]
+  },
+  {
+   "name": "HMP WERRINGTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U050]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 1300,
+   "poly": [
+    [
+     53.026389,
+     -2.093889
+    ],
+    [
+     53.027778,
+     -2.085278
+    ],
+    [
+     53.025278,
+     -2.080556
+    ],
+    [
+     53.018889,
+     -2.076944
+    ],
+    [
+     53.016667,
+     -2.091667
+    ],
+    [
+     53.021667,
+     -2.094444
+    ],
+    [
+     53.026389,
+     -2.093889
+    ]
+   ]
+  },
+  {
+   "name": "HMP WETHERBY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR3U051]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     53.941111,
+     -1.371667
+    ],
+    [
+     53.9425,
+     -1.360556
+    ],
+    [
+     53.9325,
+     -1.356667
+    ],
+    [
+     53.930833,
+     -1.374722
+    ],
+    [
+     53.937778,
+     -1.378056
+    ],
+    [
+     53.939722,
+     -1.3725
+    ],
+    [
+     53.941111,
+     -1.371667
+    ]
+   ]
+  },
+  {
+   "name": "ISLE OF MAN PRISON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U012]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 1100,
+   "poly": [
+    [
+     54.356667,
+     -4.531667
+    ],
+    [
+     54.357778,
+     -4.530833
+    ],
+    [
+     54.358056,
+     -4.530556
+    ],
+    [
+     54.359167,
+     -4.528611
+    ],
+    [
+     54.358889,
+     -4.528056
+    ],
+    [
+     54.354722,
+     -4.524167
+    ],
+    [
+     54.353889,
+     -4.528611
+    ],
+    [
+     54.353611,
+     -4.531389
+    ],
+    [
+     54.354444,
+     -4.533611
+    ],
+    [
+     54.354722,
+     -4.533611
+    ],
+    [
+     54.356667,
+     -4.531667
+    ]
+   ]
+  },
+  {
+   "name": "HMP Deerbolt",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U013]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 1100,
+   "poly": [
+    [
+     54.548611,
+     -1.933333
+    ],
+    [
+     54.539444,
+     -1.928056
+    ],
+    [
+     54.537222,
+     -1.935833
+    ],
+    [
+     54.539167,
+     -1.95
+    ],
+    [
+     54.545556,
+     -1.950278
+    ],
+    [
+     54.548611,
+     -1.933333
+    ]
+   ]
+  },
+  {
+   "name": "HMP DURHAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U014]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     54.778056,
+     -1.567222
+    ],
+    [
+     54.776389,
+     -1.561111
+    ],
+    [
+     54.770556,
+     -1.560278
+    ],
+    [
+     54.767222,
+     -1.564444
+    ],
+    [
+     54.769167,
+     -1.574722
+    ],
+    [
+     54.776944,
+     -1.577778
+    ],
+    [
+     54.778056,
+     -1.567222
+    ]
+   ]
+  },
+  {
+   "name": "HMP FRANKLAND/LOW NEWTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U015]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     54.810833,
+     -1.5425
+    ],
+    [
+     54.8,
+     -1.539167
+    ],
+    [
+     54.798056,
+     -1.554722
+    ],
+    [
+     54.802778,
+     -1.564167
+    ],
+    [
+     54.808889,
+     -1.564167
+    ],
+    [
+     54.810833,
+     -1.5425
+    ]
+   ]
+  },
+  {
+   "name": "HMP Holme House",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U016]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 500,
+   "poly": [
+    [
+     54.583333,
+     -1.296667
+    ],
+    [
+     54.583333,
+     -1.2875
+    ],
+    [
+     54.575833,
+     -1.282778
+    ],
+    [
+     54.572778,
+     -1.288333
+    ],
+    [
+     54.573056,
+     -1.296667
+    ],
+    [
+     54.576389,
+     -1.3025
+    ],
+    [
+     54.58,
+     -1.3025
+    ],
+    [
+     54.583333,
+     -1.296667
+    ]
+   ]
+  },
+  {
+   "name": "HMP LANCASTER FARMS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR4U017]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 700,
+   "poly": [
+    [
+     54.060278,
+     -2.773056
+    ],
+    [
+     54.059444,
+     -2.765833
+    ],
+    [
+     54.056944,
+     -2.762222
+    ],
+    [
+     54.051111,
+     -2.763333
+    ],
+    [
+     54.048611,
+     -2.768611
+    ],
+    [
+     54.048889,
+     -2.774722
+    ],
+    [
+     54.0525,
+     -2.779167
+    ],
+    [
+     54.058056,
+     -2.778056
+    ],
+    [
+     54.060278,
+     -2.773056
+    ]
+   ]
+  },
+  {
+   "name": "HMP NORTHUMBERLAND",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Prison restricted airspace",
+   "basis": "UK AIP ENR 5.1 (AIRAC 2026-10-01) [EGR5U010]; unmanned aircraft flight not permitted without HMPPS permission",
+   "alt_ft": 600,
+   "poly": [
+    [
+     55.305,
+     -1.6325
+    ],
+    [
+     55.298889,
+     -1.621944
+    ],
+    [
+     55.295278,
+     -1.621111
+    ],
+    [
+     55.287778,
+     -1.634722
+    ],
+    [
+     55.288889,
+     -1.644167
+    ],
+    [
+     55.293611,
+     -1.652778
+    ],
+    [
+     55.305,
+     -1.6325
+    ]
+   ]
+  },
+  {
+   "name": "PREDANNACK",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD005A]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    50.001944,
+    -5.231667
+   ],
+   "radius_km": 5.556
+  },
+  {
+   "name": "PREDANNACK CORRIDOR",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD005B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.035556,
+     -5.289444
+    ],
+    [
+     49.971667,
+     -5.378333
+    ],
+    [
+     49.856667,
+     -5.2
+    ],
+    [
+     49.941389,
+     -5.124444
+    ],
+    [
+     49.969167,
+     -5.173333
+    ],
+    [
+     49.964381,
+     -5.180327
+    ],
+    [
+     49.960375,
+     -5.188441
+    ],
+    [
+     49.957088,
+     -5.197302
+    ],
+    [
+     49.954577,
+     -5.206758
+    ],
+    [
+     49.952886,
+     -5.216645
+    ],
+    [
+     49.952043,
+     -5.226791
+    ],
+    [
+     49.952063,
+     -5.237022
+    ],
+    [
+     49.952946,
+     -5.247161
+    ],
+    [
+     49.954677,
+     -5.257031
+    ],
+    [
+     49.957225,
+     -5.266463
+    ],
+    [
+     49.960547,
+     -5.275292
+    ],
+    [
+     49.964585,
+     -5.283367
+    ],
+    [
+     49.96927,
+     -5.290548
+    ],
+    [
+     49.974519,
+     -5.29671
+    ],
+    [
+     49.980243,
+     -5.301747
+    ],
+    [
+     49.986342,
+     -5.305572
+    ],
+    [
+     49.992712,
+     -5.308118
+    ],
+    [
+     49.999241,
+     -5.309342
+    ],
+    [
+     50.005816,
+     -5.309222
+    ],
+    [
+     50.012325,
+     -5.307761
+    ],
+    [
+     50.018654,
+     -5.304984
+    ],
+    [
+     50.024694,
+     -5.300938
+    ],
+    [
+     50.030341,
+     -5.295694
+    ],
+    [
+     50.035496,
+     -5.289342
+    ],
+    [
+     50.035556,
+     -5.289444
+    ]
+   ]
+  },
+  {
+   "name": "FALMOUTH BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD006B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     49.985278,
+     -5.085
+    ],
+    [
+     50.083333,
+     -4.996667
+    ],
+    [
+     50.156667,
+     -4.908333
+    ],
+    [
+     50.0,
+     -4.908333
+    ],
+    [
+     49.946111,
+     -4.942778
+    ],
+    [
+     49.985278,
+     -5.085
+    ]
+   ]
+  },
+  {
+   "name": "FOWEY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD007B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.263889,
+     -4.416111
+    ],
+    [
+     50.228333,
+     -4.385833
+    ],
+    [
+     50.123889,
+     -4.707778
+    ],
+    [
+     50.156111,
+     -4.735278
+    ],
+    [
+     50.263889,
+     -4.416111
+    ]
+   ]
+  },
+  {
+   "name": "OKEHAMPTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD011A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.707222,
+     -4.029444
+    ],
+    [
+     50.719722,
+     -3.981667
+    ],
+    [
+     50.660278,
+     -3.936944
+    ],
+    [
+     50.623611,
+     -3.953333
+    ],
+    [
+     50.628889,
+     -3.966944
+    ],
+    [
+     50.624722,
+     -4.016944
+    ],
+    [
+     50.671944,
+     -4.061389
+    ],
+    [
+     50.707222,
+     -4.029444
+    ]
+   ]
+  },
+  {
+   "name": "WILLSWORTHY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD011B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.671944,
+     -4.061389
+    ],
+    [
+     50.624722,
+     -4.016944
+    ],
+    [
+     50.623889,
+     -4.026667
+    ],
+    [
+     50.597222,
+     -4.078889
+    ],
+    [
+     50.629722,
+     -4.099444
+    ],
+    [
+     50.671944,
+     -4.061389
+    ]
+   ]
+  },
+  {
+   "name": "MERRIVALE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD011C]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.623889,
+     -4.026667
+    ],
+    [
+     50.624722,
+     -4.016944
+    ],
+    [
+     50.628889,
+     -3.966944
+    ],
+    [
+     50.623611,
+     -3.953333
+    ],
+    [
+     50.573889,
+     -3.975556
+    ],
+    [
+     50.567222,
+     -4.06
+    ],
+    [
+     50.597222,
+     -4.078889
+    ],
+    [
+     50.623889,
+     -4.026667
+    ]
+   ]
+  },
+  {
+   "name": "LYME BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD013]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.566667,
+     -2.75
+    ],
+    [
+     50.033333,
+     -2.75
+    ],
+    [
+     50.033333,
+     -2.966667
+    ],
+    [
+     50.133333,
+     -3.075
+    ],
+    [
+     50.416667,
+     -3.291667
+    ],
+    [
+     50.5,
+     -3.291667
+    ],
+    [
+     50.566667,
+     -3.083333
+    ],
+    [
+     50.566667,
+     -2.75
+    ]
+   ]
+  },
+  {
+   "name": "PORTSMOUTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD037]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.616667,
+     -1.036389
+    ],
+    [
+     50.616667,
+     -0.660556
+    ],
+    [
+     50.5,
+     -0.536944
+    ],
+    [
+     50.5,
+     -1.19
+    ],
+    [
+     50.616667,
+     -1.036389
+    ]
+   ]
+  },
+  {
+   "name": "PORTSMOUTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD038]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.5,
+     -1.19
+    ],
+    [
+     50.5,
+     -0.833333
+    ],
+    [
+     50.0,
+     -0.833333
+    ],
+    [
+     50.0,
+     -1.190556
+    ],
+    [
+     50.490833,
+     -1.202222
+    ],
+    [
+     50.5,
+     -1.19
+    ]
+   ]
+  },
+  {
+   "name": "PORTSMOUTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD039]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.5,
+     -0.833333
+    ],
+    [
+     50.5,
+     -0.536944
+    ],
+    [
+     50.496667,
+     -0.533333
+    ],
+    [
+     50.0,
+     -0.533333
+    ],
+    [
+     50.0,
+     -0.833333
+    ],
+    [
+     50.5,
+     -0.833333
+    ]
+   ]
+  },
+  {
+   "name": "LYDD RANGES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD044]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     50.923611,
+     0.926111
+    ],
+    [
+     50.891111,
+     0.936944
+    ],
+    [
+     50.877222,
+     0.899722
+    ],
+    [
+     50.876944,
+     0.8375
+    ],
+    [
+     50.905556,
+     0.796667
+    ],
+    [
+     50.931667,
+     0.835833
+    ],
+    [
+     50.947222,
+     0.896667
+    ],
+    [
+     50.923611,
+     0.926111
+    ]
+   ]
+  },
+  {
+   "name": "BRAUNTON BURROWS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD110]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.100556,
+     -4.258056
+    ],
+    [
+     51.101667,
+     -4.200833
+    ],
+    [
+     51.083333,
+     -4.2
+    ],
+    [
+     51.082778,
+     -4.220833
+    ],
+    [
+     51.087778,
+     -4.228889
+    ],
+    [
+     51.087222,
+     -4.2575
+    ],
+    [
+     51.100556,
+     -4.258056
+    ]
+   ]
+  },
+  {
+   "name": "IMBER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD123]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.29,
+     -2.018611
+    ],
+    [
+     51.2275,
+     -1.962778
+    ],
+    [
+     51.23,
+     -1.951389
+    ],
+    [
+     51.173056,
+     -1.890278
+    ],
+    [
+     51.168333,
+     -1.950556
+    ],
+    [
+     51.185,
+     -2.120278
+    ],
+    [
+     51.224722,
+     -2.196944
+    ],
+    [
+     51.254444,
+     -2.160833
+    ],
+    [
+     51.284722,
+     -2.053333
+    ],
+    [
+     51.29,
+     -2.018611
+    ]
+   ]
+  },
+  {
+   "name": "LAVINGTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD124]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    51.2575,
+    -1.97
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "LARKHILL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD125]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.307778,
+     -1.834444
+    ],
+    [
+     51.183056,
+     -1.778056
+    ],
+    [
+     51.173056,
+     -1.890278
+    ],
+    [
+     51.23,
+     -1.951389
+    ],
+    [
+     51.2275,
+     -1.962778
+    ],
+    [
+     51.29,
+     -2.018611
+    ],
+    [
+     51.301944,
+     -1.943056
+    ],
+    [
+     51.307778,
+     -1.834444
+    ]
+   ]
+  },
+  {
+   "name": "WESTON-ON-THE-GREEN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD129]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    51.879444,
+    -1.222222
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "ASH RANGES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD132]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.295833,
+     -0.665556
+    ],
+    [
+     51.273056,
+     -0.661667
+    ],
+    [
+     51.263333,
+     -0.676111
+    ],
+    [
+     51.256667,
+     -0.716667
+    ],
+    [
+     51.268333,
+     -0.719167
+    ],
+    [
+     51.277222,
+     -0.716389
+    ],
+    [
+     51.292222,
+     -0.687778
+    ],
+    [
+     51.295833,
+     -0.665556
+    ]
+   ]
+  },
+  {
+   "name": "SHOEBURYNESS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD136]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.538056,
+     0.801111
+    ],
+    [
+     51.504722,
+     0.851111
+    ],
+    [
+     51.508333,
+     0.783333
+    ],
+    [
+     51.538056,
+     0.801111
+    ]
+   ]
+  },
+  {
+   "name": "SHOEBURYNESS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD138A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.666667,
+     1.066667
+    ],
+    [
+     51.666667,
+     1.270278
+    ],
+    [
+     51.620556,
+     1.200833
+    ],
+    [
+     51.620556,
+     0.926667
+    ],
+    [
+     51.666667,
+     1.066667
+    ]
+   ]
+  },
+  {
+   "name": "SHOEBURYNESS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD138B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.7,
+     1.19
+    ],
+    [
+     51.7,
+     1.32
+    ],
+    [
+     51.666667,
+     1.270278
+    ],
+    [
+     51.666667,
+     1.066667
+    ],
+    [
+     51.7,
+     1.19
+    ]
+   ]
+  },
+  {
+   "name": "HYTHE RANGES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD141]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.071944,
+     1.073889
+    ],
+    [
+     51.036667,
+     1.091944
+    ],
+    [
+     51.022222,
+     1.03
+    ],
+    [
+     51.032778,
+     1.019722
+    ],
+    [
+     51.056389,
+     1.037222
+    ],
+    [
+     51.071944,
+     1.073889
+    ]
+   ]
+  },
+  {
+   "name": "PONTRILAS",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD147]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    51.966667,
+    -2.883333
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "ABERPORTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD201A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.574167,
+     -5.363333
+    ],
+    [
+     52.150833,
+     -5.015833
+    ],
+    [
+     52.166667,
+     -5.139444
+    ],
+    [
+     52.218611,
+     -5.271111
+    ],
+    [
+     52.336944,
+     -5.364167
+    ],
+    [
+     52.574167,
+     -5.363333
+    ]
+   ]
+  },
+  {
+   "name": "ABERPORTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD201B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     53.05,
+     -5.5
+    ],
+    [
+     53.25,
+     -5.5
+    ],
+    [
+     53.3875,
+     -5.171389
+    ],
+    [
+     53.381944,
+     -5.0
+    ],
+    [
+     53.2,
+     -5.0
+    ],
+    [
+     53.120833,
+     -4.888611
+    ],
+    [
+     53.05,
+     -4.888611
+    ],
+    [
+     53.05,
+     -5.5
+    ]
+   ]
+  },
+  {
+   "name": "ABERPORTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD201G]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.738056,
+     -5.5
+    ],
+    [
+     52.574167,
+     -5.363333
+    ],
+    [
+     52.336944,
+     -5.364167
+    ],
+    [
+     52.218611,
+     -5.271111
+    ],
+    [
+     52.166667,
+     -5.139444
+    ],
+    [
+     52.21,
+     -5.378889
+    ],
+    [
+     52.333333,
+     -5.5
+    ],
+    [
+     52.738056,
+     -5.5
+    ]
+   ]
+  },
+  {
+   "name": "ABERPORTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD201H]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.5,
+     -5.301667
+    ],
+    [
+     52.5,
+     -4.2
+    ],
+    [
+     52.266667,
+     -4.2
+    ],
+    [
+     52.166667,
+     -4.495
+    ],
+    [
+     52.146667,
+     -4.484444
+    ],
+    [
+     52.117222,
+     -4.636111
+    ],
+    [
+     52.144444,
+     -4.646389
+    ],
+    [
+     52.150833,
+     -5.015833
+    ],
+    [
+     52.5,
+     -5.301667
+    ]
+   ]
+  },
+  {
+   "name": "ABERPORTH",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD201K]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.333333,
+     -5.5
+    ],
+    [
+     52.137778,
+     -5.308056
+    ],
+    [
+     52.177222,
+     -5.5
+    ],
+    [
+     52.333333,
+     -5.5
+    ]
+   ]
+  },
+  {
+   "name": "SENNYBRIDGE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD203]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.128611,
+     -3.49
+    ],
+    [
+     52.103611,
+     -3.445833
+    ],
+    [
+     52.080833,
+     -3.425556
+    ],
+    [
+     52.047778,
+     -3.467778
+    ],
+    [
+     52.032222,
+     -3.495278
+    ],
+    [
+     52.030556,
+     -3.5275
+    ],
+    [
+     51.982778,
+     -3.624722
+    ],
+    [
+     51.970833,
+     -3.659722
+    ],
+    [
+     51.996389,
+     -3.684722
+    ],
+    [
+     52.036389,
+     -3.671944
+    ],
+    [
+     52.083611,
+     -3.592222
+    ],
+    [
+     52.128611,
+     -3.49
+    ]
+   ]
+  },
+  {
+   "name": "STANFORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD208]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     52.554167,
+     0.680556
+    ],
+    [
+     52.555556,
+     0.75
+    ],
+    [
+     52.548611,
+     0.8
+    ],
+    [
+     52.5125,
+     0.833333
+    ],
+    [
+     52.447222,
+     0.847222
+    ],
+    [
+     52.438889,
+     0.808333
+    ],
+    [
+     52.466667,
+     0.75
+    ],
+    [
+     52.483333,
+     0.65
+    ],
+    [
+     52.516667,
+     0.666667
+    ],
+    [
+     52.554167,
+     0.680556
+    ]
+   ]
+  },
+  {
+   "name": "SWYNNERTON",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD211]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    52.897778,
+    -2.22
+   ],
+   "radius_km": 0.926
+  },
+  {
+   "name": "CREDENHILL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD216]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    52.081389,
+    -2.801667
+   ],
+   "radius_km": 3.704
+  },
+  {
+   "name": "FAIRFORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD218A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.804167,
+     -1.595278
+    ],
+    [
+     51.671111,
+     -1.588333
+    ],
+    [
+     51.666111,
+     -1.821389
+    ],
+    [
+     51.686111,
+     -1.991111
+    ],
+    [
+     51.795556,
+     -1.997778
+    ],
+    [
+     51.804167,
+     -1.595278
+    ]
+   ]
+  },
+  {
+   "name": "MARHAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD220A]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    52.648333,
+    0.550556
+   ],
+   "radius_km": 9.26
+  },
+  {
+   "name": "UPPER HULME",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD304]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    53.164167,
+    -1.958333
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "BECKINGHAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD305]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     53.098333,
+     -0.692778
+    ],
+    [
+     53.095,
+     -0.676111
+    ],
+    [
+     53.074167,
+     -0.678889
+    ],
+    [
+     53.074444,
+     -0.701389
+    ],
+    [
+     53.092778,
+     -0.704722
+    ],
+    [
+     53.098333,
+     -0.692778
+    ]
+   ]
+  },
+  {
+   "name": "HARPUR HILL",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD314]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    53.228611,
+    -1.924444
+   ],
+   "radius_km": 0.926
+  },
+  {
+   "name": "WADDINGTON LOW",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD324A]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    53.166111,
+    -0.523889
+   ],
+   "radius_km": 9.26
+  },
+  {
+   "name": "BALLYKINLER",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD401]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     54.226111,
+     -5.77
+    ],
+    [
+     54.215556,
+     -5.792778
+    ],
+    [
+     54.221111,
+     -5.843889
+    ],
+    [
+     54.244444,
+     -5.827778
+    ],
+    [
+     54.257222,
+     -5.836111
+    ],
+    [
+     54.256944,
+     -5.788333
+    ],
+    [
+     54.226111,
+     -5.77
+    ]
+   ]
+  },
+  {
+   "name": "LUCE BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD403A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     54.861389,
+     -4.910556
+    ],
+    [
+     54.860833,
+     -4.844722
+    ],
+    [
+     54.85,
+     -4.829444
+    ],
+    [
+     54.813889,
+     -4.946111
+    ],
+    [
+     54.831389,
+     -4.948056
+    ],
+    [
+     54.861389,
+     -4.910556
+    ]
+   ]
+  },
+  {
+   "name": "LUCE BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD403B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     54.868889,
+     -4.901111
+    ],
+    [
+     54.871389,
+     -4.859444
+    ],
+    [
+     54.85,
+     -4.829444
+    ],
+    [
+     54.835556,
+     -4.8275
+    ],
+    [
+     54.780556,
+     -4.643611
+    ],
+    [
+     54.717778,
+     -4.583333
+    ],
+    [
+     54.680556,
+     -4.595278
+    ],
+    [
+     54.654167,
+     -4.781389
+    ],
+    [
+     54.668611,
+     -4.842222
+    ],
+    [
+     54.704167,
+     -4.894167
+    ],
+    [
+     54.761389,
+     -4.940833
+    ],
+    [
+     54.831389,
+     -4.948056
+    ],
+    [
+     54.868889,
+     -4.901111
+    ]
+   ]
+  },
+  {
+   "name": "KIRKCUDBRIGHT",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD405]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     54.779722,
+     -4.063611
+    ],
+    [
+     54.795556,
+     -4.037222
+    ],
+    [
+     54.807778,
+     -4.011111
+    ],
+    [
+     54.805,
+     -3.951389
+    ],
+    [
+     54.786111,
+     -3.941667
+    ],
+    [
+     54.633333,
+     -3.801667
+    ],
+    [
+     54.550556,
+     -3.955556
+    ],
+    [
+     54.554167,
+     -4.228056
+    ],
+    [
+     54.593611,
+     -4.253889
+    ],
+    [
+     54.779722,
+     -4.063611
+    ]
+   ]
+  },
+  {
+   "name": "WARCOP",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD407]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     54.636667,
+     -2.346389
+    ],
+    [
+     54.648889,
+     -2.245833
+    ],
+    [
+     54.631389,
+     -2.233889
+    ],
+    [
+     54.575556,
+     -2.2625
+    ],
+    [
+     54.532222,
+     -2.345278
+    ],
+    [
+     54.533889,
+     -2.369167
+    ],
+    [
+     54.561944,
+     -2.426667
+    ],
+    [
+     54.590556,
+     -2.405278
+    ],
+    [
+     54.636667,
+     -2.346389
+    ]
+   ]
+  },
+  {
+   "name": "CAMPBELTOWN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD509]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.208333,
+     -5.65
+    ],
+    [
+     55.208333,
+     -5.11
+    ],
+    [
+     55.118333,
+     -5.116667
+    ],
+    [
+     54.991667,
+     -5.261667
+    ],
+    [
+     54.93,
+     -5.466667
+    ],
+    [
+     55.108333,
+     -5.716667
+    ],
+    [
+     55.208333,
+     -5.65
+    ]
+   ]
+  },
+  {
+   "name": "SPADEADAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD510B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.25,
+     -2.882222
+    ],
+    [
+     55.25,
+     -2.664167
+    ],
+    [
+     55.081389,
+     -2.295278
+    ],
+    [
+     55.071389,
+     -2.288056
+    ],
+    [
+     55.035,
+     -2.277778
+    ],
+    [
+     55.0,
+     -2.464444
+    ],
+    [
+     55.0,
+     -2.709722
+    ],
+    [
+     55.02,
+     -2.748056
+    ],
+    [
+     55.25,
+     -2.882222
+    ]
+   ]
+  },
+  {
+   "name": "SPADEADAM",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD510C]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    55.045278,
+    -2.590556
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "OTTERBURN",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD512A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.238333,
+     -2.044167
+    ],
+    [
+     55.181667,
+     -2.219722
+    ],
+    [
+     55.270833,
+     -2.431111
+    ],
+    [
+     55.315833,
+     -2.3875
+    ],
+    [
+     55.256944,
+     -2.231111
+    ],
+    [
+     55.238333,
+     -2.044167
+    ]
+   ]
+  },
+  {
+   "name": "DRURIDGE BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD513A]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.033333,
+     -1.0
+    ],
+    [
+     55.333333,
+     -1.111111
+    ],
+    [
+     55.333333,
+     -0.383333
+    ],
+    [
+     55.033333,
+     -0.666667
+    ],
+    [
+     55.033333,
+     -1.0
+    ]
+   ]
+  },
+  {
+   "name": "DRURIDGE BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD513B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.733333,
+     -1.261944
+    ],
+    [
+     55.733333,
+     0.123889
+    ],
+    [
+     55.333333,
+     0.283333
+    ],
+    [
+     55.033333,
+     -0.666667
+    ],
+    [
+     55.333333,
+     -0.383333
+    ],
+    [
+     55.333333,
+     -1.111111
+    ],
+    [
+     55.733333,
+     -1.261944
+    ]
+   ]
+  },
+  {
+   "name": "DRURIDGE BAY",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD513C]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     55.833333,
+     -1.3
+    ],
+    [
+     55.833333,
+     0.083333
+    ],
+    [
+     55.333333,
+     0.283333
+    ],
+    [
+     55.033333,
+     -0.666667
+    ],
+    [
+     55.033333,
+     -1.0
+    ],
+    [
+     55.833333,
+     -1.3
+    ]
+   ]
+  },
+  {
+   "name": "GARELOCHHEAD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD601]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     56.134722,
+     -4.776667
+    ],
+    [
+     56.084722,
+     -4.782222
+    ],
+    [
+     56.077778,
+     -4.794444
+    ],
+    [
+     56.096389,
+     -4.82
+    ],
+    [
+     56.118333,
+     -4.82
+    ],
+    [
+     56.134722,
+     -4.776667
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701D]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.284167,
+     -9.346389
+    ],
+    [
+     56.966944,
+     -7.666667
+    ],
+    [
+     56.717222,
+     -7.666667
+    ],
+    [
+     56.934167,
+     -9.0
+    ],
+    [
+     57.284167,
+     -9.346389
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701E]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.483056,
+     -9.683333
+    ],
+    [
+     58.483056,
+     -8.8275
+    ],
+    [
+     57.823056,
+     -7.25
+    ],
+    [
+     57.691111,
+     -7.6175
+    ],
+    [
+     57.865,
+     -7.758889
+    ],
+    [
+     57.944167,
+     -8.175556
+    ],
+    [
+     57.903056,
+     -8.52
+    ],
+    [
+     58.0775,
+     -8.898056
+    ],
+    [
+     58.483056,
+     -9.683333
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701F]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     59.5,
+     -10.0
+    ],
+    [
+     58.7875,
+     -7.820556
+    ],
+    [
+     58.423611,
+     -7.143056
+    ],
+    [
+     57.823056,
+     -7.25
+    ],
+    [
+     58.483056,
+     -8.8275
+    ],
+    [
+     58.483056,
+     -10.0
+    ],
+    [
+     59.5,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701G]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.483056,
+     -10.0
+    ],
+    [
+     58.483056,
+     -9.683333
+    ],
+    [
+     58.0775,
+     -8.898056
+    ],
+    [
+     57.903056,
+     -8.52
+    ],
+    [
+     57.800278,
+     -9.344167
+    ],
+    [
+     57.284167,
+     -9.346389
+    ],
+    [
+     57.550278,
+     -10.0
+    ],
+    [
+     58.483056,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701H]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.550278,
+     -10.0
+    ],
+    [
+     57.284167,
+     -9.346389
+    ],
+    [
+     56.934167,
+     -9.0
+    ],
+    [
+     57.25,
+     -10.0
+    ],
+    [
+     57.550278,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701J]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     56.763333,
+     -10.0
+    ],
+    [
+     56.59,
+     -8.624444
+    ],
+    [
+     56.586111,
+     -7.718611
+    ],
+    [
+     56.060833,
+     -7.7375
+    ],
+    [
+     56.589722,
+     -10.0
+    ],
+    [
+     56.763333,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701L]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     56.441667,
+     -10.0
+    ],
+    [
+     56.076389,
+     -8.777778
+    ],
+    [
+     56.091667,
+     -10.0
+    ],
+    [
+     56.441667,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701M]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     56.091667,
+     -10.0
+    ],
+    [
+     56.076389,
+     -8.777778
+    ],
+    [
+     55.851944,
+     -8.058611
+    ],
+    [
+     55.851944,
+     -8.0
+    ],
+    [
+     55.666667,
+     -8.0
+    ],
+    [
+     55.666667,
+     -9.418889
+    ],
+    [
+     55.754444,
+     -10.0
+    ],
+    [
+     56.091667,
+     -10.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701N]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     56.53,
+     -11.752778
+    ],
+    [
+     56.091667,
+     -10.0
+    ],
+    [
+     55.754444,
+     -10.0
+    ],
+    [
+     55.897778,
+     -11.0
+    ],
+    [
+     56.53,
+     -11.752778
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701O]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.0,
+     -12.0
+    ],
+    [
+     56.441667,
+     -10.0
+    ],
+    [
+     56.091667,
+     -10.0
+    ],
+    [
+     56.53,
+     -11.752778
+    ],
+    [
+     56.7325,
+     -12.0
+    ],
+    [
+     57.0,
+     -12.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701P]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.356944,
+     -12.0
+    ],
+    [
+     56.843889,
+     -10.688333
+    ],
+    [
+     56.763333,
+     -10.0
+    ],
+    [
+     56.441667,
+     -10.0
+    ],
+    [
+     57.0,
+     -12.0
+    ],
+    [
+     57.356944,
+     -12.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701Q]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.356944,
+     -12.0
+    ],
+    [
+     57.25,
+     -10.0
+    ],
+    [
+     56.763333,
+     -10.0
+    ],
+    [
+     56.843889,
+     -10.688333
+    ],
+    [
+     57.356944,
+     -12.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701R]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.026389,
+     -12.0
+    ],
+    [
+     57.550278,
+     -10.0
+    ],
+    [
+     57.25,
+     -10.0
+    ],
+    [
+     57.356944,
+     -12.0
+    ],
+    [
+     58.026389,
+     -12.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701S]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.753889,
+     -12.0
+    ],
+    [
+     58.483056,
+     -10.0
+    ],
+    [
+     57.550278,
+     -10.0
+    ],
+    [
+     58.026389,
+     -12.0
+    ],
+    [
+     58.753889,
+     -12.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701U]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     59.0,
+     -13.0
+    ],
+    [
+     59.5,
+     -12.0
+    ],
+    [
+     58.753889,
+     -12.0
+    ],
+    [
+     58.876667,
+     -13.0
+    ],
+    [
+     59.0,
+     -13.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701V]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.876667,
+     -13.0
+    ],
+    [
+     58.753889,
+     -12.0
+    ],
+    [
+     58.026389,
+     -12.0
+    ],
+    [
+     58.248333,
+     -13.0
+    ],
+    [
+     58.876667,
+     -13.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701W]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.248333,
+     -13.0
+    ],
+    [
+     58.026389,
+     -12.0
+    ],
+    [
+     57.356944,
+     -12.0
+    ],
+    [
+     57.523889,
+     -13.0
+    ],
+    [
+     58.248333,
+     -13.0
+    ]
+   ]
+  },
+  {
+   "name": "HEBRIDES",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD701X]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.523889,
+     -13.0
+    ],
+    [
+     57.356944,
+     -12.0
+    ],
+    [
+     56.7325,
+     -12.0
+    ],
+    [
+     57.523889,
+     -13.0
+    ]
+   ]
+  },
+  {
+   "name": "FORT GEORGE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD702]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.604722,
+     -4.013056
+    ],
+    [
+     57.580278,
+     -4.024444
+    ],
+    [
+     57.577778,
+     -4.049167
+    ],
+    [
+     57.582222,
+     -4.077222
+    ],
+    [
+     57.592778,
+     -4.060556
+    ],
+    [
+     57.604722,
+     -4.013056
+    ]
+   ]
+  },
+  {
+   "name": "SPACEPORT ONE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD714A]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    57.650278,
+    -7.484722
+   ],
+   "radius_km": 1.389
+  },
+  {
+   "name": "SPACEPORT ONE",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD714B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     57.691111,
+     -7.6175
+    ],
+    [
+     57.823056,
+     -7.25
+    ],
+    [
+     57.667778,
+     -7.375556
+    ],
+    [
+     57.600278,
+     -7.369722
+    ],
+    [
+     57.551389,
+     -7.504722
+    ],
+    [
+     57.691111,
+     -7.6175
+    ]
+   ]
+  },
+  {
+   "name": "CAPE WRATH (NORTH WEST)",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD801]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     59.0,
+     -4.5
+    ],
+    [
+     58.75,
+     -4.5
+    ],
+    [
+     58.75,
+     -5.0
+    ],
+    [
+     59.0,
+     -5.0
+    ],
+    [
+     59.0,
+     -4.5
+    ]
+   ]
+  },
+  {
+   "name": "GARVIE ISLAND",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD803]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    58.618056,
+    -4.872222
+   ],
+   "radius_km": 7.408
+  },
+  {
+   "name": "MORAY FIRTH (CENTRAL)",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD809C]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.833333,
+     -2.553889
+    ],
+    [
+     58.833333,
+     -1.757222
+    ],
+    [
+     58.433333,
+     -1.846944
+    ],
+    [
+     58.433333,
+     -2.68
+    ],
+    [
+     58.833333,
+     -2.553889
+    ]
+   ]
+  },
+  {
+   "name": "MORAY FIRTH (NORTH)",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD809N]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     59.383333,
+     -1.858333
+    ],
+    [
+     59.383333,
+     -1.7
+    ],
+    [
+     59.083333,
+     -1.7
+    ],
+    [
+     58.833333,
+     -1.757222
+    ],
+    [
+     58.833333,
+     -2.553889
+    ],
+    [
+     58.966667,
+     -2.511111
+    ],
+    [
+     59.383333,
+     -1.858333
+    ]
+   ]
+  },
+  {
+   "name": "MORAY FIRTH (SOUTH)",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD809S]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     58.433333,
+     -2.68
+    ],
+    [
+     58.433333,
+     -1.846944
+    ],
+    [
+     57.833333,
+     -1.977778
+    ],
+    [
+     57.833333,
+     -2.404167
+    ],
+    [
+     58.275,
+     -2.729167
+    ],
+    [
+     58.433333,
+     -2.68
+    ]
+   ]
+  },
+  {
+   "name": "SAXAVORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD902A]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    60.818333,
+    -0.77
+   ],
+   "radius_km": 1.389
+  },
+  {
+   "name": "SAXAVORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD902B]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     61.0,
+     -1.1
+    ],
+    [
+     61.0,
+     -0.416667
+    ],
+    [
+     60.766667,
+     -0.416667
+    ],
+    [
+     60.766667,
+     -1.1
+    ],
+    [
+     61.0,
+     -1.1
+    ]
+   ]
+  },
+  {
+   "name": "SAXAVORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD902C]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     60.766667,
+     -1.1
+    ],
+    [
+     60.766667,
+     -0.416667
+    ],
+    [
+     60.666667,
+     -0.416667
+    ],
+    [
+     60.666667,
+     -1.1
+    ],
+    [
+     60.766667,
+     -1.1
+    ]
+   ]
+  },
+  {
+   "name": "SAXAVORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD902D]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     61.0,
+     -1.5
+    ],
+    [
+     60.766667,
+     -1.1
+    ],
+    [
+     60.666667,
+     -1.1
+    ],
+    [
+     60.801389,
+     -1.5
+    ],
+    [
+     61.0,
+     -1.5
+    ]
+   ]
+  },
+  {
+   "name": "SAXAVORD",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD902E]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     61.0,
+     0.0
+    ],
+    [
+     60.801389,
+     0.0
+    ],
+    [
+     60.666667,
+     -0.416667
+    ],
+    [
+     60.766667,
+     -0.416667
+    ],
+    [
+     61.0,
+     0.0
+    ]
+   ]
+  },
+  {
+   "name": "Lavington",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD124]; may be active (e.g. live firing) - check NOTAMs",
+   "circle": [
+    51.2575,
+    -1.97
+   ],
+   "radius_km": 2.778
+  },
+  {
+   "name": "Bulford",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD126]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.2725,
+     -1.629444
+    ],
+    [
+     51.256944,
+     -1.601667
+    ],
+    [
+     51.213056,
+     -1.633056
+    ],
+    [
+     51.209167,
+     -1.661667
+    ],
+    [
+     51.178889,
+     -1.718889
+    ],
+    [
+     51.183056,
+     -1.778056
+    ],
+    [
+     51.230833,
+     -1.799722
+    ],
+    [
+     51.231755,
+     -1.796049
+    ],
+    [
+     51.232559,
+     -1.792306
+    ],
+    [
+     51.233294,
+     -1.788527
+    ],
+    [
+     51.233957,
+     -1.784714
+    ],
+    [
+     51.234549,
+     -1.780872
+    ],
+    [
+     51.235069,
+     -1.777003
+    ],
+    [
+     51.235516,
+     -1.773111
+    ],
+    [
+     51.235891,
+     -1.7692
+    ],
+    [
+     51.236192,
+     -1.765273
+    ],
+    [
+     51.23642,
+     -1.761333
+    ],
+    [
+     51.236574,
+     -1.757384
+    ],
+    [
+     51.236654,
+     -1.753429
+    ],
+    [
+     51.23666,
+     -1.749473
+    ],
+    [
+     51.236593,
+     -1.745518
+    ],
+    [
+     51.236451,
+     -1.741568
+    ],
+    [
+     51.236236,
+     -1.737626
+    ],
+    [
+     51.235948,
+     -1.733696
+    ],
+    [
+     51.235586,
+     -1.729782
+    ],
+    [
+     51.235151,
+     -1.725887
+    ],
+    [
+     51.234644,
+     -1.722014
+    ],
+    [
+     51.234064,
+     -1.718167
+    ],
+    [
+     51.233413,
+     -1.714349
+    ],
+    [
+     51.232691,
+     -1.710563
+    ],
+    [
+     51.231898,
+     -1.706814
+    ],
+    [
+     51.2725,
+     -1.629444
+    ]
+   ]
+  },
+  {
+   "name": "Everleigh",
+   "class": "restricted",
+   "kind": "aip",
+   "label": "Danger area",
+   "basis": "UK AIP ENR 5.1 [EGD128]; may be active (e.g. live firing) - check NOTAMs",
+   "poly": [
+    [
+     51.314444,
+     -1.704167
+    ],
+    [
+     51.2725,
+     -1.629444
+    ],
+    [
+     51.231667,
+     -1.706944
+    ],
+    [
+     51.232691,
+     -1.710563
+    ],
+    [
+     51.233413,
+     -1.714349
+    ],
+    [
+     51.234064,
+     -1.718167
+    ],
+    [
+     51.234644,
+     -1.722014
+    ],
+    [
+     51.235151,
+     -1.725887
+    ],
+    [
+     51.235586,
+     -1.729782
+    ],
+    [
+     51.235948,
+     -1.733696
+    ],
+    [
+     51.236236,
+     -1.737626
+    ],
+    [
+     51.236451,
+     -1.741568
+    ],
+    [
+     51.236593,
+     -1.745518
+    ],
+    [
+     51.23666,
+     -1.749473
+    ],
+    [
+     51.236654,
+     -1.753429
+    ],
+    [
+     51.236574,
+     -1.757384
+    ],
+    [
+     51.23642,
+     -1.761333
+    ],
+    [
+     51.236192,
+     -1.765273
+    ],
+    [
+     51.235891,
+     -1.7692
+    ],
+    [
+     51.235516,
+     -1.773111
+    ],
+    [
+     51.235069,
+     -1.777003
+    ],
+    [
+     51.234549,
+     -1.780872
+    ],
+    [
+     51.233957,
+     -1.784714
+    ],
+    [
+     51.233294,
+     -1.788527
+    ],
+    [
+     51.232559,
+     -1.792306
+    ],
+    [
+     51.231755,
+     -1.796049
+    ],
+    [
+     51.230881,
+     -1.799752
+    ],
+    [
+     51.307778,
+     -1.834444
+    ],
+    [
+     51.314444,
+     -1.704167
+    ]
+   ]
+  }
+ ]
+}
