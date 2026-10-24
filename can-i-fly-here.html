@@ -8,19 +8,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0d1418">
+<meta name="theme-color" content="#FAF7F1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="FlySafe">
 <link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <style>
 :root{
   color-scheme:light dark;
-  --bg:#eef1f3;--surface:#fff;--surface-2:#e6eaed;--ink:#11181c;--muted:#4e5b63;
-  --line:#c9d0d4;--accent:#f2bf24;--accent-ink:#1a1707;--red:#b9272f;--red-soft:#f9dfe1;
-  --green:#116d4c;--green-soft:#d9f0e7;--amber:#a66700;--amber-soft:#fff0c7;
-  --shadow:0 12px 28px rgba(20,32,40,.10);--radius:18px;
+  --bg:#FAF7F1;--surface:#FFFDF7;--surface-2:#F1EAD9;--ink:#1A1C19;--muted:#5A5E57;
+  --line:#D8D0BC;--accent:#D9A441;--accent-ink:#1A1C19;--red:#b9272f;--red-soft:#FBE7E3;
+  --green:#116d4c;--green-soft:#E4F0E6;--amber:#a66700;--amber-soft:#FBF3DF;
+  --shadow:0 12px 28px rgba(26,28,25,.10);--radius:18px;
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#0d1418;--surface:#152027;--surface-2:#1d2b33;--ink:#edf2f4;--muted:#afbcc3;--line:#34434c;
@@ -32,6 +34,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;padding-top:env(safe-area-inset-top);background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.5}
 button{font:inherit;touch-action:manipulation}
 button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.brand-mark{width:64px;height:64px;margin:2px 0 0}
 .topline{height:7px;background:linear-gradient(90deg,var(--accent) 0 55%,var(--green) 55% 80%,var(--red) 80%)}
 .wrap{max-width:600px;margin:0 auto;padding:26px max(20px,env(safe-area-inset-right)) max(70px,env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left))}
 h1{font-family:"Barlow Condensed",system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:800;font-size:clamp(52px,13vw,84px);line-height:.92;margin:14px 0 6px;letter-spacing:.01em}
@@ -88,6 +91,7 @@ select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-
   <!-- START -->
   <section id="screen-start">
     <p class="meta">Drone flight checker · can I fly here?</p>
+    <svg class="brand-mark" viewBox="0 0 512 512" aria-hidden="true"><g stroke-linecap="round" fill="none"><line x1="256" y1="256" x2="150" y2="150" stroke="#1A1C19" stroke-width="38"/><line x1="256" y1="256" x2="362" y2="150" stroke="#1A1C19" stroke-width="38"/><line x1="256" y1="256" x2="150" y2="362" stroke="#1A1C19" stroke-width="38"/><line x1="256" y1="256" x2="362" y2="362" stroke="#1A1C19" stroke-width="38"/><line x1="256" y1="256" x2="150" y2="150" stroke="#D9A441" stroke-width="24"/><line x1="256" y1="256" x2="362" y2="150" stroke="#D9A441" stroke-width="24"/><line x1="256" y1="256" x2="150" y2="362" stroke="#D9A441" stroke-width="24"/><line x1="256" y1="256" x2="362" y2="362" stroke="#D9A441" stroke-width="24"/></g><g fill="#D9A441" stroke="#1A1C19" stroke-width="8"><ellipse cx="150" cy="150" rx="82" ry="15"/><ellipse cx="362" cy="150" rx="82" ry="15"/><ellipse cx="150" cy="362" rx="82" ry="15"/><ellipse cx="362" cy="362" rx="82" ry="15"/></g><g fill="#D9A441" stroke="#1A1C19" stroke-width="10"><circle cx="150" cy="150" r="46"/><circle cx="362" cy="150" r="46"/><circle cx="150" cy="362" r="46"/><circle cx="362" cy="362" r="46"/></g><g fill="#1A1C19"><circle cx="150" cy="150" r="15"/><circle cx="362" cy="150" r="15"/><circle cx="150" cy="362" r="15"/><circle cx="362" cy="362" r="15"/></g><circle cx="256" cy="256" r="80" fill="#D9A441" stroke="#1A1C19" stroke-width="10"/><circle cx="256" cy="256" r="26" fill="#FAF7F1" stroke="#1A1C19" stroke-width="8"/></svg>
     <h1>FLYSAFE</h1>
     <p class="lede">One button. Your location, the nearest airfields, and the local rules — boiled down to a single verdict.</p>
     <button class="big-btn" id="btn-go">Can I fly here?</button>
