@@ -1,8 +1,9 @@
 /* FlySafe — service worker.
+   v11: family-vernacular restyle (cream theme) + new icon set + favicon.
    v5: cache-first app shell (same-origin) incl. embedded airfield data;
    network-first for the reverse-geocode API, with a graceful offline
    fallback the app already handles as "degraded". */
-const CACHE = 'flysafe-v10';
+const CACHE = 'flysafe-v11';
 const ASSETS = [
   './',
   './index.html',
@@ -13,7 +14,8 @@ const ASSETS = [
   './icon-512.png',
   './icon-180.png',
   './icon-152.png',
-  './icon-120.png'
+  './icon-120.png',
+  './favicon.ico'
 ];
 const API_HOSTS = ['overpass-api.de', 'api.bigdatacloud.net'];
 
