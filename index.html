@@ -329,7 +329,8 @@ function fmtAlt(ft){return Number(ft).toLocaleString("en-GB")+" ft";}
 
 /*PLACES-BLOCK-START*/
 /* ---- Google Places: sensitive-places layer (Places API New) ----
-   One Nearby Search (New) call per verdict run, radius 500 m. Empty
+   LIVE: wired into the GPS verdict flow — one Nearby Search (New) call
+   per verdict run, radius 500 m. Empty
    PLACES_API_KEY = feature fully dormant: no network call, no lines.
    Never a clearance: absence of results is never reported as safety.
    Key: "Can I Fly Here web key" (Google Cloud Console display name, unchanged) in project
@@ -436,7 +437,7 @@ async function checkPlacesSurroundings(lat,lon){
   }catch(e){clearTimeout(timer);return {status:"fail",err:(e&&e.name==="AbortError")?"timed out":"network error"};}
 }
 function placesOutcomeLines(pr,lat,lon){
-  if(pr.status==="nokey")return {lines:[],placesRendered:false}; /* dormant */
+  if(pr.status==="nokey")return {lines:[],placesRendered:false}; /* no key configured: layer skipped */
   if(pr.status==="fail")return {lines:[{c:"warn",t:"Ground surroundings could not be checked — the Places lookup failed ("+(pr.err||"unknown")+"). Look around before launching."}],placesRendered:false};
   return placesReasonsFromResponse(pr.places||[],lat,lon);
 }
