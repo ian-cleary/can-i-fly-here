@@ -1,9 +1,10 @@
 /* FlySafe — service worker.
+   v12: Places comment correction (sensitive-places layer is live, not dormant).
    v11: family-vernacular restyle (cream theme) + new icon set + favicon.
    v5: cache-first app shell (same-origin) incl. embedded airfield data;
    network-first for the reverse-geocode API, with a graceful offline
    fallback the app already handles as "degraded". */
-const CACHE = 'flysafe-v11';
+const CACHE = 'flysafe-v12';
 const ASSETS = [
   './',
   './index.html',
