@@ -102,7 +102,7 @@ select{font:inherit;width:100%;padding:14px;border:1px solid var(--line);border-
       <p class="fineprint" style="margin:0 0 10px">On iPhone: tap <b>Share</b> in Safari, then <b>Add to Home Screen</b> — it will open full-screen like a native app and work offline.</p>
       <button class="ghost-btn" id="ios-hint-dismiss" style="margin:0">Got it</button>
     </div>
-    <p class="fineprint">Guidance only — never legal clearance. This tool cannot see live geozone geometry or NOTAMs; it checks airfield proximity in OpenStreetMap data plus published country rules, and always hands off to the official source.</p>
+    <p class="fineprint">Guidance only — never legal clearance. This tool cannot see live geozone geometry or NOTAMs; it checks airfield proximity in OurAirports data plus published country rules, and always hands off to the official source.</p>
   </section>
 
   <!-- CHECK -->
@@ -193,7 +193,8 @@ const S={lat:null,lon:null,cc:null,country:null,degraded:false,nearest:null};
 
 function show(id){["screen-start","screen-check","screen-manual","screen-verdict"].forEach(s=>$(s).classList.toggle("hidden",s!==id));window.scrollTo(0,0);}
 
-function ruleFor(cc){return RULES[cc]||Object.assign({},FALLBACK,{name:S.country||"Unknown"});}
+function ruleFor(cc){if(cc==="GB")cc="UK";/* BigDataCloud returns ISO alpha-2 "GB"; the rules table keys the UK as "UK". */
+  return RULES[cc]||Object.assign({},FALLBACK,{name:S.country||"Unknown"});}
 
 function renderRules(){
   const r=ruleFor(S.cc);

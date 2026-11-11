@@ -1,11 +1,12 @@
 /* FlySafe — service worker.
+   v14: GB→UK rules mapping fix (GPS rules panel in the UK) + OurAirports fineprint correction.
    v13: airfield bullet fix (5 km threshold wording) + restore of 1 Nov restyle/Places comment reverted by stale local push.
    v12: Places comment correction (sensitive-places layer is live, not dormant).
    v11: family-vernacular restyle (cream theme) + new icon set + favicon.
    v5: cache-first app shell (same-origin) incl. embedded airfield data;
    network-first for the reverse-geocode API, with a graceful offline
    fallback the app already handles as "degraded". */
-const CACHE = 'flysafe-v13';
+const CACHE = 'flysafe-v14';
 const ASSETS = [
   './',
   './index.html',
